@@ -12,7 +12,7 @@ function TopBar() {
 
     return (
         <div>
-            <div className="bg-slate-300 flex items-center justify-end">
+            <div className="bg-tim-gray flex items-center justify-end drop-shadow-md">
                 <button onClick={toggleMenu} className={menuOpen ? "transition-transform rotate-90 duration-300" : "transition-transform duration-300"}>
                     {menuOpen ?
                         <XMark /> :
