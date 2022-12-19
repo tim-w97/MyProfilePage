@@ -1,11 +1,12 @@
 function Menu() {
+    // TODO: Show my full name here.
     return (
-        <div>
+        <div className="bg-tim-black text-tim-green p-3 font-mono">
             <ul>
-                <li className="text-2xl text-right m-5 text-tim-black">Über mich</li>
-                <li className="text-2xl text-right m-5 text-tim-black">Lebenslauf</li>
-                <li className="text-2xl text-right m-5 text-tim-black">Projekte</li>
-                <li className="text-2xl text-right m-5 text-tim-black">Konakt</li>
+                <li className="text-2xl text-right m-5">Über mich</li>
+                <li className="text-2xl text-right m-5">Fähigkeiten</li>
+                <li className="text-2xl text-right m-5">Projekte</li>
+                <li className="text-2xl text-right m-5">Konakt</li>
             </ul>
         </div>
     );
