@@ -13,7 +13,7 @@ function Welcome() {
 
             <p className='mt-6'>Denn App-Programmierung ist genau das, was ich nach meinem Studium hauptberuflich machen will.</p>
 
-            <p className='mt-3'>Auf diesem Weg möchte ich mich insbesondere auf Cross-Plattform-Apps in Flutter und Dart spezialisieren.</p>
+            <p className='mt-3'>Das Flutter-Framework interessiert mich am meisten, doch ich habe auch mit anderen Tools bereits Erfahrungen gesammelt.</p>
         </div>
     );
 }
