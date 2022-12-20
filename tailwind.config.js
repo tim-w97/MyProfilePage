@@ -5,9 +5,13 @@ module.exports = {
   ],
   theme: {
     colors: {
-      "tim-gray": "#656565",
-      "tim-green": "#C0FF6B",
       "tim-lightgray": "#D5D5D5",
+      "tim-gray": "#656565",
+      "tim-green": {
+        DEFAULT: "#C0FF6B",
+        leaf: "#7cd100",
+        forest: "#4b8600"
+      },
       "tim-black": "#000000"
     },
 
