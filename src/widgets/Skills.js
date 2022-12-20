@@ -7,6 +7,9 @@ function Skills() {
         <div className="mt-6">
             <p className="text-2xl font-bold font-mono">Fameworks und Sprachen</p>
             <div className="grid grid-cols-3 gap-2 mt-3">
+                {
+                    // TODO: Add Skills: Flutter, Java, Swift, JavaScript, React, TailwindCSS
+                }
                 <div className="rounded bg-tim-gray m-1 p-3">
                     <Flutter />
                 </div>
