@@ -1,6 +1,9 @@
 import Flutter from "./icons/Flutter";
+import Java from "./icons/Java";
+import JavaScript from "./icons/JavaScript";
 import React from "./icons/React";
 import Swift from "./icons/Swift";
+import Tailwind from "./icons/Tailwind";
 
 function Skills() {
     return (
@@ -18,6 +21,15 @@ function Skills() {
                 </div>
                 <div className="rounded bg-tim-gray m-1 p-3">
                     <Swift />
+                </div>
+                <div className="rounded bg-tim-gray m-1 p-3">
+                    <Java />
+                </div>
+                <div className="rounded bg-tim-gray m-1 p-3">
+                    <JavaScript />
+                </div>
+                <div className="rounded bg-tim-gray m-1 p-3">
+                    <Tailwind />
                 </div>
             </div>
         </div>
