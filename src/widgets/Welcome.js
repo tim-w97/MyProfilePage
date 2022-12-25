@@ -1,4 +1,4 @@
-import timAtWaterStation from '../assets/tim-at-water-station.png';
+import timAtWaterStation from '../assets/images/tim-at-water-station.png';
 
 function Welcome() {
     return (
