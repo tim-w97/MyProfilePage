@@ -1,8 +1,8 @@
 import timAtWaterStation from '../assets/images/tim-at-water-station.png';
 
-function Welcome() {
+function Welcome(props) {
     return (
-        <div className='mt-28'>
+        <div className={props.className}>
             <p className="text-2xl font-bold font-mono">Hey, mein Name ist Tim. 👨🏻‍💻</p>
 
             <p className="text-xl mt-6">Ich studiere <span className='font-bold'>Mobile Computing</span> an der Hochschule für Angewandte Wissenschaften in Hof.</p>

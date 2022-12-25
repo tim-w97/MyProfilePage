@@ -5,9 +5,9 @@ import React from "./icons/React";
 import Swift from "./icons/Swift";
 import Tailwind from "./icons/Tailwind";
 
-function Skills() {
+function Skills(props) {
     return (
-        <div className="mt-8">
+        <div className={props.className}>
             <p className="text-2xl font-bold font-mono">Tools, die ich benutze:</p>
             <div className="grid grid-cols-3 gap-3 mt-3">
                 <div className="rounded bg-tim-gray m-1 p-3">
