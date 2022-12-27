@@ -1,18 +1,14 @@
-import mooTODO from '../assets/videos/moo-todo.mov'
-import iphoneX from '../assets/images/iphone-x.png'
+import VideoShowcase from '../widgets/VideoShowcase'
+import mooTodoVideo from '../assets/videos/moo-todo.mov'
+import iBecherVideo from '../assets/videos/i-becher.mov'
 
 function Projects(props) {
     return (
         <div className={props.className}>
             <p className="text-2xl font-bold font-mono mb-3">Meine Projekte:</p>
 
-            <div className='relative'>
-                <video className='rounded-[16%/8%] absolute p-[7%]' autoPlay loop muted>
-                    <source src={mooTODO} type="video/mp4"></source>
-                </video>
-
-                <img className='absolute' src={iphoneX} alt='iPhone X Device Frame'></img>
-            </div>
+            <VideoShowcase videoSrc={mooTodoVideo} />
+            <VideoShowcase className='mt-6' videoSrc={iBecherVideo} />
         </div>
     );
 }
