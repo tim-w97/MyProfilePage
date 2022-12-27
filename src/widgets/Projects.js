@@ -1,6 +1,6 @@
 import VideoShowcase from '../widgets/VideoShowcase'
-import mooTodoVideo from '../assets/videos/moo-todo.mov'
-import iBecherVideo from '../assets/videos/i-becher.mov'
+import mooTodoVideo from '../assets/videos/moo-todo.m4v'
+import iBecherVideo from '../assets/videos/i-becher.m4v'
 
 function Projects(props) {
     return (
