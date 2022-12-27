@@ -15,7 +15,7 @@ function TopBar() {
     }
 
     return (
-        <div className="fixed top-0 left-0 right-0 bottom-0">
+        <div className="fixed top-0 left-0 right-0">
             <div className="bg-tim-gray flex items-center justify-end drop-shadow-md">
                 <button onClick={toggleMenu} className={menuOpen ? "transition-transform rotate-90 duration-300" : "transition-transform duration-300"}>
                     {menuOpen ?
