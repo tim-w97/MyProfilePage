@@ -1,3 +1,4 @@
+import Contacts from "./widgets/Contacts";
 import Projects from "./widgets/Projects";
 import Skills from "./widgets/Skills";
 import TopBar from "./widgets/TopBar";
@@ -11,6 +12,7 @@ function App() {
         <Skills className='mt-8' />
         <Projects className='mt-8' />
       </div>
+      <Contacts className='mt-8' />
       <TopBar />
     </div>
   );
