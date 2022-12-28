@@ -24,7 +24,7 @@ function TopBar() {
                     }
                 </button>
             </div>
-            {menuOpen ? <Menu onMenuClose={closeMenu} /> : null}
+            <Menu className={`transition-transform duration-300 ${menuOpen ? 'scale-100' : 'scale-0 h-0'}`} onMenuClose={closeMenu} />
         </div >
     );
 }

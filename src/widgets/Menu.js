@@ -10,7 +10,7 @@ function Menu(props) {
 
     // TODO: Show my full name here.
     return (
-        <div>
+        <div className={props.className}>
             {/* if the user taps anywhere but not the buttons, the menu will close */}
             <div className="absolute w-screen h-screen" onClick={props.onMenuClose}></div>
 
