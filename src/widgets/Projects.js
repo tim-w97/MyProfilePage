@@ -5,7 +5,7 @@ import iBecherVideo from '../assets/videos/i-becher.m4v'
 function Projects(props) {
     return (
         <div className={props.className}>
-            <div id='anchor-projects' className="absolute -top-28"></div>
+            <div id='anchor-projects' className="absolute -top-24"></div>
             <p className="text-2xl font-bold mb-3 text-center">Projekte:</p>
 
             <p className='font-bold mb-3'>MooTODO</p>
