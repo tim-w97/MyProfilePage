@@ -5,6 +5,7 @@ function Menu(props) {
             <div className="bg-tim-black text-tim-green p-3 font-mono drop-shadow-md">
                 <ul>
                     <li className="text-2xl text-right m-5">Über mich</li>
+                    <li className="text-2xl text-right m-5">Lebenslauf</li>
                     <li className="text-2xl text-right m-5">Tools</li>
                     <li className="text-2xl text-right m-5">Projekte</li>
                     <li className="text-2xl text-right m-5">Kontakt</li>
