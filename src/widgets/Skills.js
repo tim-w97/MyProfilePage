@@ -27,7 +27,7 @@ function Skills(props) {
     return (
         <div className={props.className}>
             <p className="text-2xl font-bold text-center">Tools, die ich benutze:</p>
-            <div className="grid grid-cols-3 gap-3 mt-3">
+            <div className="max-w-md m-auto grid grid-cols-3 gap-3 mt-3">
                 <SkillTile skill='Flutter mit Dart' onSelect={changeSelectedSkill}>
                     <Flutter />
                 </SkillTile>

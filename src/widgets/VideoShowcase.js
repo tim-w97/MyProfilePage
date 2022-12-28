@@ -1,6 +1,6 @@
 function VideoShowcase(props) {
     return (
-        <div className={`relative h-max ${props.className}`}>
+        <div className={`relative h-max max-w-sm m-auto ${props.className}`}>
             <video className='absolute p-[6.6%] -z-10' autoPlay loop muted playsInline>
                 <source src={props.videoSrc} type='video/mp4'></source>
             </video>

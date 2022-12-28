@@ -6,8 +6,8 @@ import Welcome from "./widgets/Welcome";
 
 function App() {
   return (
-    <div className="font-mono">
-      <div className="m-5">
+    <div className="font-mono max-w-screen-md m-auto">
+      <div className="m-5 md:m-0">
         <Welcome className='mt-28' />
         <Skills className='mt-8' />
         <Projects className='mt-8' />
