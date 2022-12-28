@@ -3,6 +3,7 @@ import timAtWaterStation from '../assets/images/tim-at-water-station.png';
 function Welcome(props) {
     return (
         <div className={props.className}>
+            <div id='anchor-aboutme' className="absolute -top-40"></div>
             <p className="text-2xl font-bold">Hey, mein Name ist Tim. 👨🏻‍💻</p>
 
             <p className="text-xl mt-6">Ich studiere <span className='font-bold whitespace-nowrap'>Mobile Computing</span> an der Hochschule für Angewandte Wissenschaften in Hof.</p>

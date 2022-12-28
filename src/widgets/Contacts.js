@@ -4,9 +4,10 @@ import Mail from './icons/Mail';
 
 function Contacts(props) {
     return (
-        <div>
-            <p className="text-center text-2xl font-bold mx-5 mt-8 mb-3">Kontakt:</p>
-            <ul className={`${props.className} list-none`}>
+        <div className={props.className}>
+            <div id='anchor-contacts' className="absolute bottom-0"></div>
+            <p className="text-center text-2xl font-bold mx-5 mb-3">Kontakt:</p>
+            <ul className='list-none'>
                 <li>
                     <a className="flex bg-[#161B22] items-center cursor-pointer" href='https://github.com/tim-w97' target='_blank' rel="noreferrer">
                         <Octocat className='w-16 h-16 ml-3 my-3 mr-8 shrink-0' />
