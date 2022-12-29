@@ -18,7 +18,7 @@ function TopBar() {
         <div className="fixed top-0 left-0 right-0">
             <div className="md:mx-20">
                 <div className="flex justify-end h-20 max-w-screen-md m-auto bg-tim-gray drop-shadow-md">
-                    <button onClick={toggleMenu} className={menuOpen ? "transition-transform -rotate-90 duration-300" : "transition-transform duration-300"}>
+                    <button onClick={toggleMenu} className={`transition-transform duration-300 ${menuOpen ? '-rotate-90' : null}`}>
                         {menuOpen ?
                             <XMark /> :
                             <Burger />
