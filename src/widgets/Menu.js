@@ -18,39 +18,43 @@ function Menu(props) {
       ></div>
 
       <ul className="list-none max-w-screen-md m-auto bg-tim-black text-tim-green drop-shadow-md">
-        <li className="text-right">
-          <button
+        <li className="text-right cursor-pointer">
+          <div
             className="text-2xl p-5"
             onClick={() => scrollToAnchor("anchor-aboutme")}
           >
             <p>Über mich</p>
-          </button>
+          </div>
         </li>
-        <li className="text-right">
-          <button
+
+        <li className="text-right cursor-pointer">
+          <div
             className="text-2xl p-5"
             onClick={() => scrollToAnchor("anchor-tools")}
           >
             <p>Tools</p>
-          </button>
+          </div>
         </li>
-        <li className="text-right">
-          <button
+
+        <li className="text-right cursor-pointer">
+          <div
             className="text-2xl p-5"
             onClick={() => scrollToAnchor("anchor-projects")}
           >
             <p>Projekte</p>
-          </button>
+          </div>
         </li>
-        <li className="text-right">
-          <button
+
+        <li className="text-right cursor-pointer">
+          <div
             className="text-2xl p-5"
             onClick={() => scrollToAnchor("anchor-contacts")}
           >
             <p>Kontakt</p>
-          </button>
+          </div>
         </li>
-        <li className="text-right">
+
+        <li className="text-right cursor-pointer">
           <Link to="lebenslauf">
             <p className="text-2xl p-5">Lebenslauf</p>
           </Link>
