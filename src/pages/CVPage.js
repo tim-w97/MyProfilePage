@@ -37,6 +37,28 @@ function CVPage() {
             <span className="font-bold">Werkstudent</span> tätig und habe
             während dieser Zeit größenteils Webseiten mit React entwickelt.
           </p>
+
+          <div className="bg-tim-green h-0.5 my-8"></div>
+
+          <p className="text-tim-gray">Januar 2021 bis Juli 2021</p>
+          <p className="text-xl my-3">IBYKUS AG</p>
+          <p>
+            Nach meiner Ausbildung zum Fachinformatiker habe ich bei IBYKUS als{" "}
+            <span className="font-bold">Softwareentwickler</span> gearbeitet und
+            Webseiten mit dem JavaServer Faces-Framework entwickelt.
+          </p>
+
+          <div className="bg-tim-green h-0.5 my-8"></div>
+
+          <p className="text-tim-gray">August 2018 bis Januar 2021</p>
+          <p className="text-xl my-3">IBYKUS AG</p>
+          <p className="mb-6">
+            Bei der IBYKUS AG habe ich meine Ausbildung zum{" "}
+            <span className="font-bold">
+              Fachinformatiker für Anwendungsentwicklung
+            </span>{" "}
+            abgeschlossen.
+          </p>
         </div>
       </div>
       <div className="fixed top-0 left-0 right-0">
