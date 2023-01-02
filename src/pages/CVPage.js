@@ -1,7 +1,10 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Back from "../widgets/icons/Back";
 
 function CVPage() {
+  useEffect(() => window.scrollTo(0, 0));
+
   return (
     <div className="font-mono md:mx-20">
       <div className="max-w-screen-md m-auto">
