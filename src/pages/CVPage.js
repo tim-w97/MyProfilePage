@@ -50,7 +50,8 @@ function CVPage() {
             <p>
               Ich war 10 Monate lang bei der dot9 GmbH als{" "}
               <span className="font-bold">Werkstudent</span> tätig und habe
-              während dieser Zeit größenteils Webseiten mit React entwickelt.
+              während dieser Zeit größtenteils Webanwendungen mit React
+              entwickelt.
             </p>
           }
         />
@@ -65,8 +66,7 @@ function CVPage() {
             <p>
               Nach meiner Ausbildung zum Fachinformatiker habe ich bei IBYKUS
               als <span className="font-bold">Softwareentwickler</span>{" "}
-              gearbeitet und Webseiten mit dem JavaServer Faces Framework
-              entwickelt.
+              gearbeitet und Webanwendungen mit JavaServer Faces entwickelt.
             </p>
           }
         />
@@ -79,11 +79,11 @@ function CVPage() {
           location="IBYKUS AG"
           description={
             <p className="mb-8">
-              Bei der IBYKUS AG habe ich meine Ausbildung zum{" "}
+              Bei der IBYKUS AG habe ich eine Ausbildung zum{" "}
               <span className="font-bold">
                 Fachinformatiker für Anwendungsentwicklung
               </span>{" "}
-              abgeschlossen.
+              mit zusätzlichen Schulungen im SAP-Bereich absolviert.
             </p>
           }
         />
