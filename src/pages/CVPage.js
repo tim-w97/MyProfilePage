@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CVEntry from "../widgets/CVEntry";
 import Divider from "../widgets/Divider";
 import Back from "../widgets/icons/Back";
+import Profile from "../widgets/Profile";
 
 function CVPage() {
   useEffect(() => window.scrollTo(0, 0));
@@ -10,8 +11,9 @@ function CVPage() {
   return (
     <div className="font-mono md:mx-20">
       <div className="max-w-screen-md m-auto">
+        <Profile className="mt-24" />
+
         <CVEntry
-          className="mt-24"
           time="Seit September 2021"
           position="Student"
           location="Hochschule für Angewandte Wissenschaften Hof"
