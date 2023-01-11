@@ -14,13 +14,23 @@ function Profile(props) {
       <p className="text-2xl text-tim-gray my-3">Tim Wagner</p>
       <div className="flex gap-3">
         {/* Phone-Icon */}
-        <div className="w-20 rounded-full border border-tim-green border-4">
+        <a
+          className="w-20 rounded-full border border-tim-green border-4"
+          href="tel:015204847344"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Phone className="aspect-square m-3" />
-        </div>
+        </a>
         {/* E-Mail-Icon */}
-        <div className="w-20 rounded-full border border-tim-green border-4">
+        <a
+          className="w-20 rounded-full border border-tim-green border-4"
+          href="mailto:timwagner997@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Mail className="aspect-square m-3" />
-        </div>
+        </a>
       </div>
     </div>
   );
