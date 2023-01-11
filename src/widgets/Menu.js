@@ -8,7 +8,6 @@ function Menu(props) {
     anchor.scrollIntoView({ behavior: "smooth" });
   }
 
-  // TODO: Show my full name here.
   return (
     <div className={props.className}>
       {/* if the user taps anywhere but not the buttons, the menu will close */}
@@ -17,7 +16,7 @@ function Menu(props) {
         onClick={props.onMenuClose}
       ></div>
 
-      <ul className="list-none max-w-screen-md m-auto bg-tim-black text-tim-green drop-shadow-md">
+      <ul className="list-none max-w-screen-md m-auto bg-tim-black text-tim-green drop-shadow-md border-tim-green border-b-4">
         <li className="text-right cursor-pointer">
           <div
             className="text-2xl p-5"
