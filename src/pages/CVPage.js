@@ -11,7 +11,7 @@ function CVPage() {
   return (
     <div className="font-mono md:mx-20">
       <div className="max-w-screen-md m-auto">
-        <Profile className="mt-24" />
+        <Profile className="mt-24 mb-6" />
 
         <CVEntry
           time="Seit September 2021"
