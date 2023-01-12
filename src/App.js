@@ -1,9 +1,9 @@
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import CVPage from "./pages/CVPage";
 import WelcomePage from "./pages/WelcomePage";
 
 function App() {
-  const router = createHashRouter([
+  const router = createBrowserRouter([
     {
       path: "/",
       element: <WelcomePage />,
