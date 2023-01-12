@@ -16,7 +16,7 @@ function Menu(props) {
         onClick={props.onMenuClose}
       ></div>
 
-      <ul className="list-none max-w-screen-md m-auto bg-tim-black text-tim-green drop-shadow-md border-tim-green border-b-4">
+      <ul className="list-none max-w-screen-md m-auto bg-tim-black text-tim-green drop-shadow-md">
         <li className="text-right cursor-pointer">
           <div
             className="text-2xl p-5"
