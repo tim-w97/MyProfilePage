@@ -4,15 +4,19 @@ import Phone from "./icons/Phone";
 
 function Profile(props) {
   return (
-    <div className={props.className + " flex flex-col items-center"}>
+    <div
+      className={props.className + " flex flex-col items-center text-center"}
+    >
       {/* Portrait of me */}
       <img
         className="aspect-square w-40 object-cover object-top rounded-full border border-tim-green border-4 mt-3"
         src={tim}
         alt="Portrait von Tim"
       ></img>
-      <p className="text-2xl text-tim-gray my-3">Tim Wagner</p>
-      <div className="flex gap-3">
+      <p className="text-2xl font-bold text-tim-gray my-3">Tim Wagner</p>
+      <p className="text-tim-gray">geboren am 11.09.1997 (25 Jahre alt)</p>
+      <p className="text-tim-gray">Wohnort: Hof (Bayern)</p>
+      <div className="flex gap-3 mt-3">
         {/* Phone-Icon */}
         <a
           className="w-20 rounded-full border border-tim-green border-4"
