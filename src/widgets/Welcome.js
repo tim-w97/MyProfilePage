@@ -12,7 +12,7 @@ function Welcome(props) {
       <p className="text-xl mt-6">
         Ich studiere{" "}
         <span className="font-bold whitespace-nowrap">Mobile Computing</span> an
-        der Hochschule für Angewandte Wissenschaften in Hof.
+        der Hochschule für Angewandte Wissenschaften Hof.
       </p>
 
       <p className="mt-3">
@@ -23,13 +23,14 @@ function Welcome(props) {
       <img src={timAtWaterStation} alt="Tim at a water station"></img>
 
       <p className="mt-6">
-        Warum ich genau diesen Studiengang gewählt habe? Weil ich nach meinem
-        Studium als App-Entwickler arbeiten will. 👨🏻‍💻📱
+        Warum ich genau diesen Studiengang gewählt habe? Ich habe vieles
+        ausprobiert und mit der Zeit bemerkt, dass App-Entwicklung genau das
+        Gebiet ist, was mich am meisten interessiert. 🎯
       </p>
 
       <p className="mt-3">
-        Das Flutter-Framework interessiert mich am meisten, doch ich habe auch
-        mit anderen Tools bereits Erfahrungen gesammelt:
+        Flutter und Dart finde ich besonders spannend, doch ich habe auch mit
+        anderen Tools bereits Erfahrungen gesammelt:
       </p>
     </div>
   );

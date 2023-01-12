@@ -66,9 +66,10 @@ function CVPage() {
           location="IBYKUS AG"
           description={
             <p>
-              Nach meiner Ausbildung zum Fachinformatiker habe ich bei IBYKUS
-              als <span className="font-bold">Softwareentwickler</span>{" "}
-              gearbeitet und Webanwendungen mit JavaServer Faces entwickelt.
+              Nach meiner Ausbildung zum Fachinformatiker habe ich bei der
+              IBYKUS AG als{" "}
+              <span className="font-bold">Softwareentwickler</span> gearbeitet
+              und Webanwendungen mit dem JavaServer Faces Framework entwickelt.
             </p>
           }
         />
@@ -81,7 +82,7 @@ function CVPage() {
           location="IBYKUS AG"
           description={
             <p className="mb-8">
-              Bei der IBYKUS AG habe ich eine Ausbildung zum{" "}
+              Bei der IBYKUS AG habe ich meine Ausbildung zum{" "}
               <span className="font-bold">
                 Fachinformatiker für Anwendungsentwicklung
               </span>{" "}
