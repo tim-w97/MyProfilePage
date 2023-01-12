@@ -14,7 +14,10 @@ function Profile(props) {
         alt="Portrait von Tim"
       ></img>
       <p className="text-2xl font-bold text-tim-gray my-3">Tim Wagner</p>
-      <p className="text-tim-gray">geboren am 11.09.1997 (25 Jahre alt)</p>
+      <p className="text-tim-gray">
+        geboren am 11.09.1997{" "}
+        <span className="whitespace-nowrap">(25 Jahre alt)</span>
+      </p>
       <p className="text-tim-gray">Wohnort: Hof (Bayern)</p>
       <div className="flex gap-3 mt-3">
         {/* Phone-Icon */}
