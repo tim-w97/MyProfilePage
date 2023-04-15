@@ -9,7 +9,7 @@ function Profile(props) {
     >
       {/* Portrait of me */}
       <img
-        className="aspect-square w-40 object-cover object-top rounded-full border border-tim-green border-4 mt-3"
+        className="aspect-square w-40 object-cover rounded-full border border-tim-green border-4 mt-3"
         src={tim}
         alt="Portrait von Tim"
       ></img>
