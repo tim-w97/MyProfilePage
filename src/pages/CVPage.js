@@ -30,14 +30,29 @@ function CVPage() {
         <Divider />
 
         <CVEntry
-          time="Seit November 2022"
+          time="Seit März 2023"
+          position="Werkstudent"
+          location="Codivo GmbH"
+          description={
+            <p>
+              Bei der Codivo GmbH bin ich zurzeit als{" "}
+              <span className="font-bold">Werkstudent</span> tätig.{" "}
+              Meine Hauptbeschäftigung ist die Entwicklung von hybriden Apps mit Flutter.
+              </p>
+          }
+        />
+
+        <Divider/>
+
+        <CVEntry
+          time="November 2022 bis März 2023"
           position="Tutor"
           location="Hochschule für Angewandte Wissenschaften Hof"
           description={
             <p>
-              Seit meinem dritten Semester arbeite ich an meiner Hochschule als{" "}
-              <span className="font-bold">Tutor</span> und bringe unseren
-              Informatik-Erstsemestern das Programmieren in Java bei.
+              Ein Semester lang habe ich an meiner Hochschule als{" "}
+              <span className="font-bold">Tutor</span> gearbeitet und unseren
+              Informatik-Erstsemestern das Programmieren in Java beigebracht.
             </p>
           }
         />
@@ -46,7 +61,7 @@ function CVPage() {
 
         <CVEntry
           time="September 2021 bis Juni 2022"
-          position="Softwareentwickler"
+          position="Werkstudent"
           location="dot9 GmbH"
           description={
             <p>
