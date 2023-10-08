@@ -1,8 +1,12 @@
 import tim from "../assets/images/tim.jpeg";
 import Mail from "../widgets/icons/Mail";
 import Phone from "./icons/Phone";
+import moment from "moment";
 
 function Profile(props) {
+  const birthday = moment('11091997', 'DDMMYYYY')
+  const age = moment().diff(birthday, 'years')
+
   return (
     <div
       className={props.className + " flex flex-col items-center text-center"}
@@ -16,7 +20,9 @@ function Profile(props) {
       <p className="text-2xl font-bold text-tim-gray my-3">Tim Wagner</p>
       <p className="text-tim-gray">
         geboren am 11.09.1997{" "}
-        <span className="whitespace-nowrap">(25 Jahre alt)</span>
+        <span className="whitespace-nowrap">
+          ({age} Jahre alt)
+        </span>
       </p>
       <p className="text-tim-gray">Wohnort: Hof (Bayern)</p>
       <div className="flex gap-3 mt-3">
