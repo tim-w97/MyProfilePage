@@ -23,9 +23,9 @@ function Welcome(props) {
       <img src={sticker} alt="Sticker variant of Tim"></img>
 
       <p className="mt-6">
-        Warum ich genau diesen Studiengang gewählt habe? Ich habe vieles
-        ausprobiert und mit der Zeit bemerkt, dass App-Entwicklung genau das
-        Gebiet ist, was mich am meisten interessiert. 🎯
+          Warum habe ich mich für genau diesen Studiengang entschieden?
+          Ich habe viele verschiedene Bereiche ausprobiert und im Laufe der Zeit festgestellt,
+          dass die App-Entwicklung mich am meisten fasziniert. 🎯
       </p>
 
       <p className="mt-3">

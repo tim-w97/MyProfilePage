@@ -21,7 +21,7 @@ function CVPage() {
             <p>
               Ich studiere hier{" "}
               <span className="font-bold">Mobile Computing</span> (Bachelor) im
-              dritten Semester und spezialisiere mich auf die Entwicklung von
+              fünften Semester und spezialisiere mich auf die Entwicklung von
               Apps für Android und iOS.
             </p>
           }
