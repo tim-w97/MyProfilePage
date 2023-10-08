@@ -1,9 +1,11 @@
 function Back(props) {
   return (
-    <svg className={props.className} viewBox="0 0 1000 1000">
-      <g>
-        <path d="M380.5,100.5l-350,350c-27.3,27.3-27.3,71.6,0,99l350,350c27.3,27.3,71.6,27.3,99,0c27.3-27.3,27.3-71.6,0-99L249,570h671c38.7,0,70-31.3,70-70c0-38.7-31.3-70-70-70H249l230.5-230.5c13.7-13.7,20.5-31.6,20.5-49.5c0-17.9-6.8-35.8-20.5-49.5C452.1,73.2,407.8,73.2,380.5,100.5z" />
-      </g>
+    <svg className={props.className} version="1.1" viewBox="0 0 100 100">
+        <g strokeLinecap="round" strokeLinejoin="round" strokeWidth="20">
+            <path d="m10 50 40-40" style={{paintOrder: "markers stroke fill"}}/>
+            <path d="m10 50h80" style={{paintOrder: "markers stroke fill"}}/>
+            <path d="m10 50 40 40" style={{paintOrder: "markers stroke fill"}}/>
+        </g>
     </svg>
   );
 }

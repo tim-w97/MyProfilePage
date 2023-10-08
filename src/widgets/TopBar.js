@@ -24,7 +24,7 @@ function TopBar() {
               menuOpen ? "-rotate-90" : null
             }`}
           >
-            {menuOpen ? <XMark /> : <Burger />}
+            {menuOpen ? <XMark className='stroke-tim-green p-3' /> : <Burger className='stroke-tim-green p-3'/>}
           </button>
         </div>
         <Menu

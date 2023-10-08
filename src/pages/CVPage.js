@@ -110,7 +110,7 @@ function CVPage() {
         <div className="md:mx-20">
           <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-green drop-shadow-md">
             <Link to="/">
-              <Back className="fill-tim-gray w-20 aspect-square p-2" />
+              <Back className="w-20 aspect-square stroke-tim-gray p-3" />
             </Link>
             <p className="grow text-2xl font-bold text-tim-gray text-center">
               Lebenslauf

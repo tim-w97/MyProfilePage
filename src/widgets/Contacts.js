@@ -1,6 +1,6 @@
 import Octocat from "../widgets/icons/Octocat";
 import LinkedIn from "./icons/LinkedIn";
-import Mail from "./icons/Mail";
+import MailIcon from '../assets/icons/email.png'
 
 function Contacts(props) {
   return (
@@ -39,7 +39,7 @@ function Contacts(props) {
             target="_blank"
             rel="noreferrer"
           >
-            <Mail className="w-16 h-16 ml-3 my-3 mr-8 shrink-0 scale-110" />
+            <img src={MailIcon} alt='mail icon' className="w-16 h-16 ml-3 my-3 mr-8 shrink-0" />
             <p className="text-xl font-mono text-tim-green">E-Mail schreiben</p>
           </a>
         </li>
