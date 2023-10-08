@@ -1,4 +1,4 @@
-import timAtWaterStation from "../assets/images/tim-at-water-station.png";
+import sticker from "../assets/images/sticker.png";
 
 function Welcome(props) {
   return (
@@ -20,7 +20,7 @@ function Welcome(props) {
         eins - um die Programmierung von Apps.
       </p>
 
-      <img src={timAtWaterStation} alt="Tim at a water station"></img>
+      <img src={sticker} alt="Sticker variant of Tim"></img>
 
       <p className="mt-6">
         Warum ich genau diesen Studiengang gewählt habe? Ich habe vieles

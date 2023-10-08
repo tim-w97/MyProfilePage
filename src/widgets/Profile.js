@@ -1,4 +1,4 @@
-import tim from "../assets/images/tim.png";
+import tim from "../assets/images/tim.jpeg";
 import Mail from "../widgets/icons/Mail";
 import Phone from "./icons/Phone";
 
