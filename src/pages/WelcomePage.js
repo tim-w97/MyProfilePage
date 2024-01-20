@@ -10,7 +10,7 @@ function WelcomePage() {
 
   return (
     <div className="font-mono md:mx-20">
-      <div className="max-w-screen-md m-auto">
+      <div className="max-w-screen-md m-auto bg-tim-dark-blue">
         <div className="mx-5 md:mx-0">
           <Welcome className="relative mt-24" />
           <Skills className="relative mt-8" />

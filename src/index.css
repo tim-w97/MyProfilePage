@@ -10,7 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #D5D5D5;
+  background-color: #181A1C;
+  background-image: linear-gradient(to left, #181A1C, #D3F0FF, #181A1C);
 }
 
 code {
