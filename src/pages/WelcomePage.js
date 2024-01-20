@@ -9,10 +9,10 @@ function WelcomePage() {
   useEffect(() => window.scrollTo(0, 0));
 
   return (
-    <div className="font-mono md:mx-20">
+    <div className="font-mono md:mx-20 text-tim-light-blue">
       <div className="max-w-screen-md m-auto bg-tim-dark-blue">
         <div className="mx-5 md:mx-0">
-          <Welcome className="relative mt-24" />
+          <Welcome className="relative mt-20 p-3" />
           <Skills className="relative mt-8" />
           <Projects className="relative mt-8" />
         </div>

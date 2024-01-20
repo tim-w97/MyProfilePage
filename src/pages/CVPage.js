@@ -10,8 +10,8 @@ function CVPage() {
 
   return (
     <div className="font-mono md:mx-20">
-      <div className="max-w-screen-md m-auto">
-        <Profile className="mt-24 mb-6 mx-3" />
+      <div className="max-w-screen-md m-auto bg-tim-dark-blue">
+        <Profile className="mt-20 mb-6 mx-3" />
 
         <CVEntry
           time="Seit September 2021"
@@ -96,7 +96,7 @@ function CVPage() {
           position="Ausbildung zum Fachinformatiker für Anwendungsentwicklung"
           location="IBYKUS AG"
           description={
-            <p className="mb-8">
+            <p className="">
               Bei der IBYKUS AG habe ich meine Ausbildung zum{" "}
               <span className="font-bold">
                 Fachinformatiker für Anwendungsentwicklung
@@ -108,7 +108,7 @@ function CVPage() {
       </div>
       <div className="fixed top-0 left-0 right-0">
         <div className="md:mx-20">
-          <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-green drop-shadow-md">
+          <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-dark-blue">
             <Link to="/">
               <Back className="w-20 aspect-square stroke-tim-gray p-3" />
             </Link>
