@@ -31,7 +31,7 @@ function Menu(props) {
             className="text-2xl p-5"
             onClick={() => scrollToAnchor("anchor-tools")}
           >
-            <p>Tools</p>
+            <p>Skills</p>
           </div>
         </li>
 

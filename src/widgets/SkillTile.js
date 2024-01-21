@@ -4,10 +4,8 @@ function SkillTile(props) {
     }
 
     return (
-        <button className="aspect-square rounded bg-tim-gray m-1 p-3" onClick={setSelectedSkill}>
-            {
-                props.children
-            }
+        <button className='m-3 p-5 bg-tim-light-blue/25 rounded-lg' onClick={setSelectedSkill}>
+            <img className='aspect-square object-contain' src={props.img} alt={props.skill}/>
         </button>
     );
 }
