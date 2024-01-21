@@ -1,4 +1,4 @@
-import sticker from "../assets/images/sticker.png";
+import timWithCircles from "../assets/images/tim with circles.png";
 
 function Welcome(props) {
     return (
@@ -21,14 +21,13 @@ function Welcome(props) {
                 nach einem Praxispartner für ein spannendes App-Projekt.
             </p>
 
-            <img src={sticker} alt="Sticker variant of Tim"></img>
-
-            <p className="mt-6">
+            <img className='max-w-80 m-auto my-6' src={timWithCircles} alt='Tim with circles'/>
+            <p>
                 Durch Ausbildung und Studium hatte ich Berührungspunkte mit einer langen Liste an verschiedenen
                 Programmiersprachen und Werkzeugen, in diesen hier bin ich zurzeit am fittesten:
             </p>
         </div>
-);
+    );
 }
 
 export default Welcome;
