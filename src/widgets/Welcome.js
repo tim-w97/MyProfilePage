@@ -11,13 +11,12 @@ function Welcome(props) {
 
       <p className="text-xl mt-6">
         Ich studiere{" "}
-        <span className="font-bold whitespace-nowrap">Mobile-App-Entwicklung</span> an
+        <span className="font-bold whitespace-nowrap">Mobile-App-Entwicklung (B.Sc.)</span> im 5. Semester an
         der Hochschule für Angewandte Wissenschaften Hof.
       </p>
 
       <p className="mt-3">
-        In meinem Studium geht es neben der allgemeinen Informatik vor allem um
-        eins - um die Programmierung von Apps.
+          Im Oktober 2024 beginnt mein 7. Semester und ich suche nach einem Praxispartner, um ein spannendes App-Projekt durchzuführen und meine Bachelorarbeit zu schreiben.
       </p>
 
       <img src={sticker} alt="Sticker variant of Tim"></img>
@@ -25,7 +24,7 @@ function Welcome(props) {
       <p className="mt-6">
           Warum habe ich mich für genau diesen Studiengang entschieden?
           Ich habe viele verschiedene Bereiche ausprobiert und im Laufe der Zeit festgestellt,
-          dass die App-Entwicklung mich am meisten fasziniert. 🎯
+          dass die App-Entwicklung mich am meisten fasziniert.
       </p>
 
       <p className="mt-3">
