@@ -6,12 +6,12 @@ function Welcome(props) {
       <div id="anchor-aboutme" className="absolute -top-48"></div>
       <p className="text-2xl font-bold">
         Hi, mein Name ist{" "}
-        <span className="font-bold whitespace-nowrap">Tim. 🙋🏻‍♂️</span>
+        <span className="font-bold whitespace-nowrap">Tim.</span>
       </p>
 
       <p className="text-xl mt-6">
         Ich studiere{" "}
-        <span className="font-bold whitespace-nowrap">Mobile Computing</span> an
+        <span className="font-bold whitespace-nowrap">Mobile-App-Entwicklung</span> an
         der Hochschule für Angewandte Wissenschaften Hof.
       </p>
 

@@ -8,10 +8,10 @@ module.exports = {
       // new colors
       "tim-blue": "#2196F3",
       "tim-dark-blue": "#181A1C",
-      "tim-light-blue": "#D3F0FF",
+      "tim-light-blue": "#7BC7F3",
+      "tim-light-grey": "#CFCFD3",
 
       // old colors
-      "tim-lightgray": "#D5D5D5",
       "tim-gray": "#656565",
       "tim-green": {
         DEFAULT: "#C0FF6B",
@@ -19,6 +19,9 @@ module.exports = {
         forest: "#4b8600"
       },
       "tim-black": "#000000"
+    },
+    fontFamily: {
+      comfortaa: ['Comfortaa', 'sans-serif']
     },
 
     extend: {},
