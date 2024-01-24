@@ -17,8 +17,8 @@ function WelcomePage() {
                     <Apps className="relative mt-8"/>
                 </div>
                 <Contacts className="relative mt-16"/>
-                <TopBar/>
             </div>
+            <TopBar/>
         </div>
     );
 }

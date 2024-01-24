@@ -15,7 +15,7 @@ function TopBar() {
   }
 
   return (
-    <div className="fixed top-0 left-0 right-0">
+    <div className="fixed z-10 top-0 left-0 right-0">
       <div className="md:mx-20">
         <div className="flex justify-end h-20 max-w-screen-md m-auto bg-tim-dark-blue">
           <button
