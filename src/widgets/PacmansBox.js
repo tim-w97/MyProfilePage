@@ -5,6 +5,8 @@ import pacmansBoxFlying from "../assets/images/apps/pacmans-box/flying.png";
 import pacmansBoxGameOver from "../assets/images/apps/pacmans-box/game over.png";
 
 function PacmansBox(props) {
+    const imageStyle = 'w-80 m-auto p-3'
+
     return(
         <div className={props.className}>
             <p className='mb-3'>
@@ -12,19 +14,19 @@ function PacmansBox(props) {
             </p>
             <swiper-container navigation="true">
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={pacmansBoxMenu} alt='Pacmans Box Menu'/>
+                    <img className={imageStyle} src={pacmansBoxMenu} alt='Pacmans Box Menu'/>
                 </swiper-slide>
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={pacmansBoxHold} alt='Pacmans Box Hold screen'/>
+                    <img className={imageStyle} src={pacmansBoxHold} alt='Pacmans Box Hold screen'/>
                 </swiper-slide>
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={pacmansBoxRelease} alt='Pacmans Box Release screen'/>
+                    <img className={imageStyle} src={pacmansBoxRelease} alt='Pacmans Box Release screen'/>
                 </swiper-slide>
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={pacmansBoxFlying} alt='Pacmans Box Pacman flying'/>
+                    <img className={imageStyle} src={pacmansBoxFlying} alt='Pacmans Box Pacman flying'/>
                 </swiper-slide>
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={pacmansBoxGameOver} alt='Pacmans Box Game over'/>
+                    <img className={imageStyle} src={pacmansBoxGameOver} alt='Pacmans Box Game over'/>
                 </swiper-slide>
             </swiper-container>
         </div>

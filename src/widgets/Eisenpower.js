@@ -5,6 +5,8 @@ import eisenpowerHelpScreen from "../assets/images/apps/eisenpower/help screen.p
 import eisenpowerSnackbar from "../assets/images/apps/eisenpower/snack bar.png";
 
 function Eisenpower(props) {
+    const imageStyle = 'w-80 m-auto p-3'
+    
     return(
         <div className={props.className}>
             <p className='mb-3'>
@@ -13,19 +15,19 @@ function Eisenpower(props) {
 
             <swiper-container navigation="true">
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={eisenpowerTodos} alt='Eisenhower Todos'/>
+                    <img className={imageStyle} src={eisenpowerTodos} alt='Eisenhower Todos'/>
                 </swiper-slide>
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={eisenpowerInput} alt='Eisenhower Add Todo'/>
+                    <img className={imageStyle} src={eisenpowerInput} alt='Eisenhower Add Todo'/>
                 </swiper-slide>
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={eisenpowerImportance} alt='Eisenhower Importance'/>
+                    <img className={imageStyle} src={eisenpowerImportance} alt='Eisenhower Importance'/>
                 </swiper-slide>
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={eisenpowerHelpScreen} alt='Eisenhower Help Screen'/>
+                    <img className={imageStyle} src={eisenpowerHelpScreen} alt='Eisenhower Help Screen'/>
                 </swiper-slide>
                 <swiper-slide>
-                    <img className='w-80 m-auto' src={eisenpowerSnackbar} alt='Eisenhower Snackbar'/>
+                    <img className={imageStyle} src={eisenpowerSnackbar} alt='Eisenhower Snackbar'/>
                 </swiper-slide>
             </swiper-container>
         </div>
