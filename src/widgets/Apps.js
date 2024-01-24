@@ -11,8 +11,8 @@ function Apps(props) {
             <div id="anchor-apps" className="absolute -top-24"></div>
             <p className="text-2xl font-bold mb-3 text-center">Apps</p>
             <TimetableApp className='mt-5'/>
-            <Eisenpower className='mt-5'/>
-            <PacmansBox className='mt-5'/>
+            <Eisenpower className='mt-10'/>
+            <PacmansBox className='mt-10'/>
     </div>
     );
 }
