@@ -23,6 +23,7 @@ function Welcome(props) {
 
             <img className='max-w-80 m-auto my-6' src={timWithCircles} alt='Tim with circles'/>
             <p>
+                {/* TODO: hinschreiben, dass ich auf der Dekansliste war, mit Urkunde als Popup (ant.js?)*/}
                 Durch Ausbildung und Studium hatte ich Berührungspunkte mit einer langen Liste an verschiedenen
                 Programmiersprachen und Werkzeugen, in diesen hier bin ich zurzeit am fittesten:
             </p>
