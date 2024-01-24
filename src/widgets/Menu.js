@@ -38,9 +38,9 @@ function Menu(props) {
         <li className="text-right cursor-pointer">
           <div
             className="text-2xl p-5"
-            onClick={() => scrollToAnchor("anchor-projects")}
+            onClick={() => scrollToAnchor("anchor-apps")}
           >
-            <p>Projekte</p>
+            <p>Apps</p>
           </div>
         </li>
 

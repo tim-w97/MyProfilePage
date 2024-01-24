@@ -1,6 +1,6 @@
 import {useEffect} from "react";
 import Contacts from "../widgets/Contacts";
-import Projects from "../widgets/Projects";
+import Apps from "../widgets/Apps";
 import Skills from "../widgets/Skills";
 import TopBar from "../widgets/TopBar";
 import Welcome from "../widgets/Welcome";
@@ -14,7 +14,7 @@ function WelcomePage() {
                 <div className='p-5'>
                     <Welcome className="relative mt-20"/>
                     <Skills className="relative mt-8"/>
-                    <Projects className="relative mt-8"/>
+                    <Apps className="relative mt-8"/>
                 </div>
                 <Contacts className="relative mt-16"/>
                 <TopBar/>
