@@ -35,7 +35,7 @@ function Contacts(props) {
         <li>
           <a
             className="flex bg-tim-gray items-center cursor-pointer"
-            href="mailto:timwagner997@gmail.com"
+            href="mailto:timwagner997@gmail.com?subject=Deine%20Bewerbung&body=Hi%20Tim%2C"
             target="_blank"
             rel="noreferrer"
           >
