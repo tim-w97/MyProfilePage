@@ -4,6 +4,7 @@ import timetableAppSettings from "../assets/images/apps/timetable-app/settings s
 import timetableAppSelectCourse from "../assets/images/apps/timetable-app/select course.png";
 import timetableAppSelectLectures from "../assets/images/apps/timetable-app/select lectures.png";
 import AppGallery from "./AppGallery";
+import appleStoreBadge from '../assets/images/badges/apple-store-badge.png'
 
 function TimetableApp(props) {
     return(
@@ -20,6 +21,12 @@ function TimetableApp(props) {
                 timetableAppSelectCourse,
                 timetableAppSelectLectures
             ]}/>
+
+            <div className='flex justify-center mt-3'>
+                <a href='https://apps.apple.com/de/app/stundenplan-hof/id1202844664?l=de-DE' rel='noreferrer' target='_blank'>
+                    <img className='w-44' src={appleStoreBadge} alt='Apple app store badge'/>
+                </a>
+            </div>
         </div>
     )
 }
