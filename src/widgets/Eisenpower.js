@@ -11,7 +11,8 @@ function Eisenpower(props) {
     return(
         <div className={props.className}>
             <p className='mb-3'>
-                Eisenpower ist eine App, die Todos mithilfe der Eisenhower priorisieren kann.
+                <span className='font-bold'>Eisenpower</span> ist eine App, die ich selbst mit Flutter entwickelt habe.
+                Es ist eine ziemlich einfache Todo-App, die jedoch alle Aufgaben nach der Eisenhower-Matrix priorisiert.
             </p>
 
             <AppGallery imagePaths={[

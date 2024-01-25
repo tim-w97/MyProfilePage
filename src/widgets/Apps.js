@@ -13,6 +13,7 @@ function Apps(props) {
             <TimetableApp className='mt-5'/>
             <Eisenpower className='mt-10'/>
             <PacmansBox className='mt-10'/>
+            <p className='mt-6'>Gerne zeige ich Ihnen persönlich noch weitere Apps und Projekte von mir.</p>
     </div>
     );
 }

@@ -10,8 +10,9 @@ function TimetableApp(props) {
     return(
         <div className={props.className}>
             <p className='mb-3'>
-                In meinem 5. Semester habe ich zusammen mit zwei weiteren Kommilitonen eine Stundenplan-App für unsere
-                Hochschule erstellt.
+                Im 5. Semester haben zwei meiner Kommilitonen und ich eine{' '}
+                <span className='font-bold'>Stundenplan-App</span> für unsere Hochschule auf
+                Basis von Swift und SwiftUI entwickelt.
             </p>
 
             <AppGallery imagePaths={[

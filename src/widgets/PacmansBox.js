@@ -9,7 +9,8 @@ function PacmansBox(props) {
     return(
         <div className={props.className}>
             <p className='mb-3'>
-                Pacman's Box ist ein Spiel, das ich mit Godot entwickelt habe.
+                Ich habe mich in meiner Freizeit mit der Godot Engine beschäftigt und ein kleines Spiel entwickelt.{' '}
+                <span className='font-bold'>Pacman's Box</span> funktioniert auf iOS und Android.
             </p>
 
             <AppGallery imagePaths={[
