@@ -26,7 +26,7 @@ function Skills(props) {
 
     return (
         <div className={props.className}>
-            <div id="anchor-tools" className="absolute -top-24"></div>
+            <div id="anchor-tools" className="absolute -top-20"></div>
             <p className="text-2xl font-bold text-center">Skills</p>
             <div className="max-w-80 m-auto grid grid-cols-2 mt-3">
                 <SkillTile img={flutterIcon} skill="Flutter mit Dart" onSelect={changeSelectedSkill}/>

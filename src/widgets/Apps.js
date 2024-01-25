@@ -8,7 +8,7 @@ register()
 function Apps(props) {
     return (
         <div className={props.className}>
-            <div id="anchor-apps" className="absolute -top-24"></div>
+            <div id="anchor-apps" className="absolute -top-20"></div>
             <p className="text-2xl font-bold mb-3 text-center">Apps</p>
             <TimetableApp className='mt-5'/>
             <Eisenpower className='mt-10'/>
