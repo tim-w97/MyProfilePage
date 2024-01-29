@@ -11,7 +11,7 @@ function Welcome(props) {
 
             <p className="text-xl mt-6">
                 Ich studiere{' '}
-                <span className="font-bold whitespace-nowrap">Mobile-App-Entwicklung (B.Sc.)</span> an der{' '}
+                <span className="font-bold whitespace-nowrap">Mobile Computing (B.Sc.)</span> an der{' '}
                 <span className='whitespace-nowrap'>Hochschule Hof</span>,{' '}
                 ein besonderer Informatik-Studiengang für App Freaks wie mich.
             </p>
