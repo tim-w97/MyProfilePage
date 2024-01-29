@@ -9,7 +9,7 @@ function CVPage() {
   useEffect(() => window.scrollTo(0, 0));
 
   return (
-    <div className="font-mono md:mx-20">
+    <div className="font-comfortaa font-light text-xl text-tim-light-grey md:mx-20">
       <div className="max-w-screen-md m-auto bg-tim-dark-blue">
         <Profile className="mt-20 mb-6 mx-3" />
 
@@ -109,13 +109,13 @@ function CVPage() {
       <div className="fixed top-0 left-0 right-0">
         <div className="md:mx-20">
           <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-dark-blue">
+            <div className="w-20"></div>
+            <p className="grow text-2xl font-bold text-tim-light-blue text-center">
+              Lebenslauf
+            </p>
             <Link to="/">
               <img className='w-20 p-3' src={houseIcon} alt='Home'/>
             </Link>
-            <p className="grow text-2xl font-bold text-tim-gray text-center">
-              Lebenslauf
-            </p>
-            <div className="w-20 aspect-square"></div>
           </div>
         </div>
       </div>

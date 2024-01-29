@@ -17,7 +17,7 @@ function Profile(props) {
         src={tim}
         alt="Portrait von Tim"
       ></img>
-      <p className="text-2xl font-bold text-tim-gray my-3">Tim Wagner</p>
+      <p className="text-2xl font-bold my-3">Tim Wagner</p>
       <p className="text-tim-gray">
         geboren am 11.09.1997{" "}
         <span className="whitespace-nowrap">
