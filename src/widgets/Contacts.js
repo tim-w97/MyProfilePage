@@ -1,6 +1,6 @@
 import Octocat from "../widgets/icons/Octocat";
 import LinkedIn from "./icons/LinkedIn";
-import MailIcon from '../assets/icons/email.png'
+import MailIcon from '../assets/images/icons/email.png'
 
 function Contacts(props) {
   return (

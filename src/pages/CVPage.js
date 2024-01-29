@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import CVEntry from "../widgets/CVEntry";
 import Divider from "../widgets/Divider";
-import Back from "../widgets/icons/Back";
 import Profile from "../widgets/Profile";
+import houseIcon from "../assets/images/icons/house.png"
 
 function CVPage() {
   useEffect(() => window.scrollTo(0, 0));
@@ -110,7 +110,7 @@ function CVPage() {
         <div className="md:mx-20">
           <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-dark-blue">
             <Link to="/">
-              <Back className="w-20 aspect-square stroke-tim-gray p-3" />
+              <img className='w-20 p-3' src={houseIcon} alt='Home'/>
             </Link>
             <p className="grow text-2xl font-bold text-tim-gray text-center">
               Lebenslauf
