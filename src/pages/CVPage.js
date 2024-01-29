@@ -92,19 +92,19 @@ function CVPage() {
         <Divider />
 
         <CVEntry
-            className='pb-6'
-          time="August 2018 bis Januar 2021"
-          position="Ausbildung zum Fachinformatiker für Anwendungsentwicklung"
-          location="IBYKUS AG"
-          description={
-            <p className="">
-              Bei der IBYKUS AG habe ich meine Ausbildung zum{" "}
-              <span className="font-bold">
+            className='pb-8'
+            time="August 2018 bis Januar 2021"
+            position="Ausbildung zum Fachinformatiker für Anwendungsentwicklung"
+            location="IBYKUS AG"
+            description={
+              <p className="">
+                Bei der IBYKUS AG habe ich meine Ausbildung zum{" "}
+                <span className="font-bold">
                 Fachinformatiker für Anwendungsentwicklung
               </span>{" "}
-              mit zusätzlichen Schulungen im SAP-Bereich absolviert.
-            </p>
-          }
+                mit zusätzlichen Schulungen im SAP-Bereich absolviert.
+              </p>
+            }
         />
       </div>
       <div className="fixed top-0 left-0 right-0">
