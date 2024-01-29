@@ -4,6 +4,10 @@ import CVEntry from "../widgets/CVEntry";
 import Divider from "../widgets/Divider";
 import Profile from "../widgets/Profile";
 import houseIcon from "../assets/images/icons/house.png"
+import universityLogo from '../assets/images/logos/hochschule-hof.png'
+import ibykusLogo from '../assets/images/logos/ibykus.jpeg'
+import codivoLogo from '../assets/images/logos/codivo.png'
+import dot9Logo from '../assets/images/logos/dot9.jpeg'
 
 function CVPage() {
   useEffect(() => window.scrollTo(0, 0));
@@ -16,11 +20,14 @@ function CVPage() {
         <CVEntry
           time="Seit September 2021"
           position="Student"
-          location="Hochschule für Angewandte Wissenschaften Hof"
+          location="Hochschule Hof"
+          logo={
+            <img src={universityLogo} alt='Hochschule Hof Logo'/>
+          }
           description={
             <p>
               Ich studiere hier{" "}
-              <span className="font-bold">Mobile Computing</span> (Bachelor) im
+              <span className="font-bold">Mobile Computing</span> (B.Sc.) im
               fünften Semester und spezialisiere mich auf die Entwicklung von
               Apps für Android und iOS.
             </p>
@@ -33,6 +40,9 @@ function CVPage() {
           time="Seit März 2023"
           position="Werkstudent"
           location="Codivo GmbH"
+          logo={
+            <img src={codivoLogo} alt='Codivo Logo'/>
+          }
           description={
             <p>
               Bei der Codivo GmbH bin ich zurzeit als{" "}
@@ -47,12 +57,15 @@ function CVPage() {
         <CVEntry
           time="November 2022 bis März 2023"
           position="Tutor"
-          location="Hochschule für Angewandte Wissenschaften Hof"
+          location="Hochschule Hof"
+          logo={
+            <img src={universityLogo} alt='Hochschule Hof Logo'/>
+          }
           description={
             <p>
               Ein Semester lang habe ich an meiner Hochschule als{" "}
               <span className="font-bold">Tutor</span> gearbeitet und unseren
-              Informatik-Erstsemestern das Programmieren in Java beigebracht.
+              Erstsemestern aus Informatik das Programmieren in Java beigebracht.
             </p>
           }
         />
@@ -63,11 +76,14 @@ function CVPage() {
           time="September 2021 bis Juni 2022"
           position="Werkstudent"
           location="dot9 GmbH"
+          logo={
+            <img src={dot9Logo} alt='dot9 Logo'/>
+          }
           description={
             <p>
               Ich war 10 Monate lang bei der dot9 GmbH als{" "}
               <span className="font-bold">Werkstudent</span> tätig und habe
-              während dieser Zeit größtenteils Webanwendungen mit React
+              in dieser Zeit größtenteils Webanwendungen mit React
               entwickelt.
             </p>
           }
@@ -79,6 +95,9 @@ function CVPage() {
           time="Januar 2021 bis Juli 2021"
           position="Softwareentwickler"
           location="IBYKUS AG"
+          logo={
+            <img src={ibykusLogo} alt='IBYKUS Logo'/>
+          }
           description={
             <p>
               Nach meiner Ausbildung zum Fachinformatiker habe ich bei der
@@ -96,6 +115,9 @@ function CVPage() {
             time="August 2018 bis Januar 2021"
             position="Ausbildung zum Fachinformatiker für Anwendungsentwicklung"
             location="IBYKUS AG"
+            logo={
+              <img src={ibykusLogo} alt='IBYKUS Logo'/>
+            }
             description={
               <p className="">
                 Bei der IBYKUS AG habe ich meine Ausbildung zum{" "}
