@@ -1,6 +1,6 @@
 import Octocat from "../widgets/icons/Octocat";
 import LinkedIn from "./icons/LinkedIn";
-import MailIcon from '../assets/images/icons/email.png'
+import mailIcon from '../assets/images/icons/email-cv.png'
 
 function Contacts(props) {
   return (
@@ -34,13 +34,13 @@ function Contacts(props) {
 
         <li>
           <a
-            className="flex bg-tim-gray items-center cursor-pointer"
+            className="flex bg-tim-dark-blue items-center cursor-pointer"
             href="mailto:timwagner997@gmail.com?subject=Deine%20Bewerbung&body=Hi%20Tim%2C"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={MailIcon} alt='mail icon' className="w-16 h-16 ml-3 my-3 mr-8 shrink-0" />
-            <p className="text-xl font-mono text-tim-green">E-Mail schreiben</p>
+            <img src={mailIcon} alt='mail icon' className="w-16 h-16 ml-3 my-3 mr-8 shrink-0" />
+            <p className="text-xl text-tim-light-blue">E-Mail schreiben</p>
           </a>
         </li>
       </ul>

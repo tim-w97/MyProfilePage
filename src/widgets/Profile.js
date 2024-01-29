@@ -1,6 +1,6 @@
 import tim from "../assets/images/tim.jpeg";
-import Mail from "../widgets/icons/Mail";
-import Phone from "./icons/Phone";
+import phoneIcon from '../assets/images/icons/phone.png'
+import mailIcon from '../assets/images/icons/email-cv.png'
 import moment from "moment";
 
 function Profile(props) {
@@ -28,21 +28,21 @@ function Profile(props) {
       <div className="flex gap-3 mt-3">
         {/* Phone-Icon */}
         <a
-          className="w-20 rounded-full border border-tim-green border-4"
+          className="w-16"
           href="tel:015204847344"
           target="_blank"
           rel="noreferrer"
         >
-          <Phone className="aspect-square m-3" />
+          <img src={phoneIcon} alt='Phone Contact'/>
         </a>
         {/* E-Mail-Icon */}
         <a
-          className="w-20 rounded-full border border-tim-green border-4"
+          className="w-16"
           href="mailto:timwagner997@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
-          <Mail className="aspect-square m-3" />
+          <img src={mailIcon} alt='Email Contact'/>
         </a>
       </div>
     </div>

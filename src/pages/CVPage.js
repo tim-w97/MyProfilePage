@@ -9,9 +9,9 @@ function CVPage() {
   useEffect(() => window.scrollTo(0, 0));
 
   return (
-    <div className="font-comfortaa font-light text-xl text-tim-light-grey md:mx-20">
+    <div className="font-comfortaa font-light text-xl text-tim-light-grey">
       <div className="max-w-screen-md m-auto bg-tim-dark-blue">
-        <Profile className="mt-20 mb-6 mx-3" />
+        <Profile className="mt-20 mb-10 mx-3" />
 
         <CVEntry
           time="Seit September 2021"
@@ -92,6 +92,7 @@ function CVPage() {
         <Divider />
 
         <CVEntry
+            className='pb-6'
           time="August 2018 bis Januar 2021"
           position="Ausbildung zum Fachinformatiker für Anwendungsentwicklung"
           location="IBYKUS AG"
@@ -107,16 +108,14 @@ function CVPage() {
         />
       </div>
       <div className="fixed top-0 left-0 right-0">
-        <div className="md:mx-20">
-          <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-dark-blue">
-            <div className="w-20"></div>
-            <p className="grow text-2xl font-bold text-tim-light-blue text-center">
-              Lebenslauf
-            </p>
-            <Link to="/">
-              <img className='w-20 p-3' src={houseIcon} alt='Home'/>
-            </Link>
-          </div>
+        <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-dark-blue">
+          <div className="w-20"></div>
+          <p className="grow text-2xl font-bold text-tim-light-blue text-center">
+            Lebenslauf
+          </p>
+          <Link to="/">
+            <img className='w-20 p-3' src={houseIcon} alt='Home'/>
+          </Link>
         </div>
       </div>
     </div>
