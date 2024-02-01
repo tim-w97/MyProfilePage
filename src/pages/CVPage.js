@@ -8,107 +8,107 @@ import ibykusLogo from '../assets/images/logos/ibykus.jpeg'
 import codivoLogo from '../assets/images/logos/codivo.png'
 import dot9Logo from '../assets/images/logos/dot9.jpeg'
 import XMark from "../widgets/icons/XMark";
+import PageTemplate from "../widgets/PageTemplate";
 
 function CVPage() {
   useEffect(() => window.scrollTo(0, 0));
 
   return (
-    <div className="font-comfortaa font-light text-xl text-tim-light-grey">
-      <div className="max-w-screen-md m-auto bg-tim-dark-blue">
-        <Profile className="mt-20 mb-10 mx-3" />
+      <PageTemplate>
+        <Profile className="mt-20 mb-10 mx-3"/>
 
         <CVEntry
-          time="Seit September 2021"
-          position="Student"
-          location="Hochschule Hof"
-          logo={
-            <img src={universityLogo} alt='Hochschule Hof Logo'/>
-          }
-          description={
-            <p>
-              Ich studiere hier{" "}
-              <span className="font-bold">Mobile Computing</span> (B.Sc.) im
-              fünften Semester und spezialisiere mich auf die Entwicklung von
-              Apps für Android und iOS.
-            </p>
-          }
-        />
-
-        <Divider />
-
-        <CVEntry
-          time="Seit März 2023"
-          position="Werkstudent"
-          location="Codivo GmbH"
-          logo={
-            <img src={codivoLogo} alt='Codivo Logo'/>
-          }
-          description={
-            <p>
-              Bei der Codivo GmbH bin ich zurzeit als{" "}
-              <span className="font-bold">Werkstudent</span> tätig.{" "}
-              Meine Hauptbeschäftigung ist die Entwicklung von hybriden Apps mit Flutter.
+            time="Seit September 2021"
+            position="Student"
+            location="Hochschule Hof"
+            logo={
+              <img src={universityLogo} alt='Hochschule Hof Logo'/>
+            }
+            description={
+              <p>
+                Ich studiere hier{" "}
+                <span className="font-bold">Mobile Computing</span> (B.Sc.) im
+                fünften Semester und spezialisiere mich auf die Entwicklung von
+                Apps für Android und iOS.
               </p>
-          }
+            }
         />
 
         <Divider/>
 
         <CVEntry
-          time="November 2022 bis März 2023"
-          position="Tutor"
-          location="Hochschule Hof"
-          logo={
-            <img src={universityLogo} alt='Hochschule Hof Logo'/>
-          }
-          description={
-            <p>
-              Ein Semester lang habe ich an meiner Hochschule als{" "}
-              <span className="font-bold">Tutor</span> gearbeitet und unseren
-              Erstsemestern aus Informatik das Programmieren in Java beigebracht.
-            </p>
-          }
+            time="Seit März 2023"
+            position="Werkstudent"
+            location="Codivo GmbH"
+            logo={
+              <img src={codivoLogo} alt='Codivo Logo'/>
+            }
+            description={
+              <p>
+                Bei der Codivo GmbH bin ich zurzeit als{" "}
+                <span className="font-bold">Werkstudent</span> tätig.{" "}
+                Meine Hauptbeschäftigung ist die Entwicklung von hybriden Apps mit Flutter.
+              </p>
+            }
         />
 
-        <Divider />
+        <Divider/>
 
         <CVEntry
-          time="September 2021 bis Juni 2022"
-          position="Werkstudent"
-          location="dot9 GmbH"
-          logo={
-            <img src={dot9Logo} alt='dot9 Logo'/>
-          }
-          description={
-            <p>
-              Ich war 10 Monate lang bei der dot9 GmbH als{" "}
-              <span className="font-bold">Werkstudent</span> tätig und habe
-              in dieser Zeit größtenteils Webanwendungen mit React
-              entwickelt.
-            </p>
-          }
+            time="November 2022 bis März 2023"
+            position="Tutor"
+            location="Hochschule Hof"
+            logo={
+              <img src={universityLogo} alt='Hochschule Hof Logo'/>
+            }
+            description={
+              <p>
+                Ein Semester lang habe ich an meiner Hochschule als{" "}
+                <span className="font-bold">Tutor</span> gearbeitet und unseren
+                Erstsemestern aus Informatik das Programmieren in Java beigebracht.
+              </p>
+            }
         />
 
-        <Divider />
+        <Divider/>
 
         <CVEntry
-          time="Januar 2021 bis Juli 2021"
-          position="Softwareentwickler"
-          location="IBYKUS AG"
-          logo={
-            <img src={ibykusLogo} alt='IBYKUS Logo'/>
-          }
-          description={
-            <p>
-              Nach meiner Ausbildung zum Fachinformatiker habe ich bei der
-              IBYKUS AG als{" "}
-              <span className="font-bold">Softwareentwickler</span> gearbeitet
-              und Webanwendungen mit dem JavaServer Faces Framework entwickelt.
-            </p>
-          }
+            time="September 2021 bis Juni 2022"
+            position="Werkstudent"
+            location="dot9 GmbH"
+            logo={
+              <img src={dot9Logo} alt='dot9 Logo'/>
+            }
+            description={
+              <p>
+                Ich war 10 Monate lang bei der dot9 GmbH als{" "}
+                <span className="font-bold">Werkstudent</span> tätig und habe
+                in dieser Zeit größtenteils Webanwendungen mit React
+                entwickelt.
+              </p>
+            }
         />
 
-        <Divider />
+        <Divider/>
+
+        <CVEntry
+            time="Januar 2021 bis Juli 2021"
+            position="Softwareentwickler"
+            location="IBYKUS AG"
+            logo={
+              <img src={ibykusLogo} alt='IBYKUS Logo'/>
+            }
+            description={
+              <p>
+                Nach meiner Ausbildung zum Fachinformatiker habe ich bei der
+                IBYKUS AG als{" "}
+                <span className="font-bold">Softwareentwickler</span> gearbeitet
+                und Webanwendungen mit dem JavaServer Faces Framework entwickelt.
+              </p>
+            }
+        />
+
+        <Divider/>
 
         <CVEntry
             className='pb-8'
@@ -128,21 +128,21 @@ function CVPage() {
               </p>
             }
         />
-      </div>
-      <div className="fixed top-0 left-0 right-0">
-        <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-dark-blue">
-          <div className="w-20"></div>
-          <p className="grow text-2xl font-bold text-tim-light-blue text-center">
-            Lebenslauf
-          </p>
-          <Link to="/">
-            <div className='w-20'>
-              <XMark className='stroke-tim-light-blue p-3'/>
-            </div>
-          </Link>
+
+        <div className="fixed top-0 left-0 right-0">
+          <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-dark-blue">
+            <div className="w-20"></div>
+            <p className="grow text-2xl font-bold text-tim-light-blue text-center">
+              Lebenslauf
+            </p>
+            <Link to="/">
+              <div className='w-20'>
+                <XMark className='stroke-tim-light-blue p-3'/>
+              </div>
+            </Link>
+          </div>
         </div>
-      </div>
-    </div>
+      </PageTemplate>
   );
 }
 
