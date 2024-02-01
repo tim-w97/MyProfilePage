@@ -1,7 +1,8 @@
 import tim from "../assets/images/tim.jpeg";
 import phoneIcon from '../assets/images/icons/phone.png'
-import mailIcon from '../assets/images/icons/email-cv.png'
+import mailIcon from '../assets/images/icons/email.png'
 import moment from "moment";
+import SendEmailLink from "./SendEmailLink";
 
 function Profile(props) {
   const birthday = moment('11091997', 'DDMMYYYY')
@@ -36,14 +37,9 @@ function Profile(props) {
           <img src={phoneIcon} alt='Phone Contact'/>
         </a>
         {/* E-Mail-Icon */}
-        <a
-          className="w-16"
-          href="mailto:timwagner997@gmail.com?subject=Deine%20Bewerbung&body=Hi%20Tim%2C"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <SendEmailLink className="w-16">
           <img src={mailIcon} alt='Email Contact'/>
-        </a>
+        </SendEmailLink>
       </div>
     </div>
   );

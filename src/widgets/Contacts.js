@@ -1,6 +1,7 @@
 import Octocat from "../widgets/icons/Octocat";
 import LinkedIn from "./icons/LinkedIn";
-import mailIcon from '../assets/images/icons/email-cv.png'
+import mailIcon from '../assets/images/icons/email.png'
+import SendEmailLink from "./SendEmailLink";
 
 function Contacts(props) {
   return (
@@ -33,15 +34,10 @@ function Contacts(props) {
         </li>
 
         <li>
-          <a
-            className="flex bg-tim-dark-blue items-center cursor-pointer"
-            href="mailto:timwagner997@gmail.com?subject=Deine%20Bewerbung&body=Hi%20Tim%2C"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <SendEmailLink className="flex bg-tim-dark-blue items-center cursor-pointer">
             <img src={mailIcon} alt='mail icon' className="w-16 h-16 ml-3 my-3 mr-8 shrink-0" />
             <p className="text-xl text-tim-light-blue">E-Mail schreiben</p>
-          </a>
+          </SendEmailLink>
         </li>
       </ul>
     </div>
