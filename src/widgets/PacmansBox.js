@@ -8,12 +8,12 @@ import AppGallery from "./AppGallery";
 function PacmansBox(props) {
     return(
         <div className={props.className}>
-            <p className='mb-3'>
+            <p className='m-5'>
                 Ich habe mich in meiner Freizeit mit der Godot Engine beschäftigt und ein kleines Spiel entwickelt.{' '}
                 <span className='font-bold'>Pacman's Box</span> funktioniert auf iOS und Android.
             </p>
 
-            <AppGallery imagePaths={[
+            <AppGallery initialSlide={4} imagePaths={[
                 pacmansBoxMenu,
                 pacmansBoxHold,
                 pacmansBoxRelease,

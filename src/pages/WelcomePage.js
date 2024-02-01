@@ -14,8 +14,8 @@ function WelcomePage() {
                 <div className='p-5'>
                     <Welcome className="relative mt-20"/>
                     <Skills className="relative mt-8"/>
-                    <Apps className="relative mt-8"/>
                 </div>
+                <Apps className="relative mt-8"/>
                 <Contacts className="relative mt-16 font-bold"/>
             </div>
             <TopBar/>

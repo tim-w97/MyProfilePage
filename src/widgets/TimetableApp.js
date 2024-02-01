@@ -9,13 +9,13 @@ import appleStoreBadge from '../assets/images/badges/apple-store-badge.png'
 function TimetableApp(props) {
     return(
         <div className={props.className}>
-            <p className='mb-3'>
+            <p className='m-5'>
                 Im 5. Semester haben zwei meiner Kommilitonen und ich eine{' '}
                 <span className='font-bold'>Stundenplan-App</span> für unsere Hochschule auf
                 Basis von Swift und SwiftUI entwickelt.
             </p>
 
-            <AppGallery imagePaths={[
+            <AppGallery initialSlide={1} imagePaths={[
                 timetableAppOnboarding,
                 timetableAppLectures,
                 timetableAppSettings,
@@ -23,7 +23,7 @@ function TimetableApp(props) {
                 timetableAppSelectLectures
             ]}/>
 
-            <div className='flex justify-center mt-3'>
+            <div className='flex justify-center mt-5'>
                 <a href='https://apps.apple.com/de/app/stundenplan-hof/id1202844664?l=de-DE' rel='noreferrer' target='_blank'>
                     <img className='w-44' src={appleStoreBadge} alt='Apple app store badge'/>
                 </a>

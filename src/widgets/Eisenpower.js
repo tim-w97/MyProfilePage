@@ -10,12 +10,12 @@ import amazonBadge from "../assets/images/badges/amazon-badge.png";
 function Eisenpower(props) {
     return(
         <div className={props.className}>
-            <p className='mb-3'>
+            <p className='m-5'>
                 <span className='font-bold'>Eisenpower</span> ist eine App, die ich selbst mit Flutter entwickelt habe.
                 Es ist eine ziemlich einfache Todo-App, die jedoch alle Aufgaben nach der Eisenhower-Matrix priorisiert.
             </p>
 
-            <AppGallery imagePaths={[
+            <AppGallery initialSlide={0} imagePaths={[
                 eisenpowerTodos,
                 eisenpowerInput,
                 eisenpowerImportance,
@@ -23,7 +23,7 @@ function Eisenpower(props) {
                 eisenpowerSnackbar
             ]}/>
 
-            <div className='flex flex-col sm:flex-row justify-center items-center mt-3 gap-3'>
+            <div className='flex flex-col sm:flex-row justify-center items-center mt-5 gap-3'>
                 <a href='https://play.google.com/store/apps/details?id=tech.tim97.eisenpower.eisenpower&hl=de&gl=DE' rel='noreferrer'
                    target='_blank'>
                     <img className='w-44' src={googlePlayBadge} alt='Google play store badge'/>
