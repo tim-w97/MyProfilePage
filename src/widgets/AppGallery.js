@@ -4,12 +4,12 @@ function AppGallery(props) {
     const swiperRef = useRef(null);
 
     const [isBigScreen, setIsBigScreen] = useState(
-        window.matchMedia("(min-width: 768px)").matches
+        window.matchMedia("(min-width: 600px)").matches
     )
 
     useEffect(() => {
         window
-            .matchMedia("(min-width: 768px)")
+            .matchMedia("(min-width: 600px)")
             .addEventListener('change', e => setIsBigScreen( e.matches ));
 
         const swiperContainer = swiperRef.current;
