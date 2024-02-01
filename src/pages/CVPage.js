@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import CVEntry from "../widgets/CVEntry";
 import Divider from "../widgets/Divider";
 import Profile from "../widgets/Profile";
-import houseIcon from "../assets/images/icons/house.png"
 import universityLogo from '../assets/images/logos/hochschule-hof.png'
 import ibykusLogo from '../assets/images/logos/ibykus.jpeg'
 import codivoLogo from '../assets/images/logos/codivo.png'
 import dot9Logo from '../assets/images/logos/dot9.jpeg'
+import XMark from "../widgets/icons/XMark";
 
 function CVPage() {
   useEffect(() => window.scrollTo(0, 0));
@@ -136,7 +136,9 @@ function CVPage() {
             Lebenslauf
           </p>
           <Link to="/">
-            <img className='w-20 p-3' src={houseIcon} alt='Home'/>
+            <div className='w-20'>
+              <XMark className='stroke-tim-light-blue p-3'/>
+            </div>
           </Link>
         </div>
       </div>
