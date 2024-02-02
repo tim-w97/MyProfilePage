@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import CVEntry from "../widgets/CVEntry";
 import Divider from "../widgets/Divider";
 import Profile from "../widgets/Profile";
@@ -7,7 +6,6 @@ import universityLogo from '../assets/images/logos/hochschule-hof.png'
 import ibykusLogo from '../assets/images/logos/ibykus.jpeg'
 import codivoLogo from '../assets/images/logos/codivo.png'
 import dot9Logo from '../assets/images/logos/dot9.jpeg'
-import XMark from "../widgets/icons/XMark";
 import PageTemplate from "../widgets/PageTemplate";
 import DismissTopBar from "../widgets/DismissTopBar";
 
