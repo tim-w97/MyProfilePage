@@ -16,7 +16,7 @@ function CVPage() {
 
   return (
       <PageTemplate>
-        <Profile className="mt-20 mb-10 mx-3"/>
+        <Profile className="pt-20 mb-10 mx-3"/>
 
         <CVEntry
             time="Seit September 2021"
