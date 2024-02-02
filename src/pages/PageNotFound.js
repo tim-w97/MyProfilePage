@@ -1,22 +1,13 @@
 import PageTemplate from "../widgets/PageTemplate";
-import XMark from "../widgets/icons/XMark";
-import {Link} from "react-router-dom";
+import DismissTopBar from "../widgets/DismissTopBar";
 
 function PageNotFound() {
     return (
         <PageTemplate>
-            <div className='h-screen'>
-                <div className='flex justify-between items-start'>
-                    <div className='m-5'>
-                        <p className='font-bold mb-3'>Sorry, aber diese Seite gibt es nicht. 🙆🏻‍♂️</p>
-                        <p>Drücke auf das X, um zur Startseite zurückzukehren.</p>
-                    </div>
-                    <Link to="/">
-                        <div className='w-20'>
-                            <XMark className='stroke-tim-light-blue p-3'/>
-                        </div>
-                    </Link>
-                </div>
+            <DismissTopBar title='Fehler 404'/>
+            <div className='h-screen p-5 pt-20'>
+                <p>Diese Seite gibt es vielleicht in einem anderen Paralleluniversum, aber nicht hier.</p>
+                <p className='mt-3'>Tut mir Leid. 🥲</p>
             </div>
         </PageTemplate>
     )
