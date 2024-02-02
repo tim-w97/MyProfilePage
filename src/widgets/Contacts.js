@@ -2,6 +2,7 @@ import Octocat from "../widgets/icons/Octocat";
 import LinkedIn from "./icons/LinkedIn";
 import mailIcon from '../assets/images/icons/email.png'
 import SendEmailLink from "./SendEmailLink";
+import {Link} from "react-router-dom";
 
 function Contacts(props) {
   return (
@@ -38,6 +39,15 @@ function Contacts(props) {
             <img src={mailIcon} alt='mail icon' className="w-16 h-16 ml-3 my-3 mr-8 shrink-0" />
             <p className="text-xl text-tim-light-blue">E-Mail schreiben</p>
           </SendEmailLink>
+        </li>
+
+        <div className="bg-tim-light-blue h-[1px] opacity-50"></div>
+
+        <li>
+          <div className='flex flex-col md:flex-row items-center justify-between cursor-pointer min-h-16 gap-3 p-5'>
+            <p className="font-normal">Mit viel ♥️ und React erstellt</p>
+            <Link to='/impressum' className="text-tim-light-blue">Impressum</Link>
+          </div>
         </li>
       </ul>
     </div>
