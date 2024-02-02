@@ -9,6 +9,7 @@ import codivoLogo from '../assets/images/logos/codivo.png'
 import dot9Logo from '../assets/images/logos/dot9.jpeg'
 import XMark from "../widgets/icons/XMark";
 import PageTemplate from "../widgets/PageTemplate";
+import DismissTopBar from "../widgets/DismissTopBar";
 
 function CVPage() {
   useEffect(() => window.scrollTo(0, 0));
@@ -129,19 +130,7 @@ function CVPage() {
             }
         />
 
-        <div className="fixed top-0 left-0 right-0">
-          <div className="flex items-center h-20 max-w-screen-md m-auto bg-tim-dark-blue">
-            <div className="w-20"></div>
-            <p className="grow text-2xl font-bold text-tim-light-blue text-center">
-              Lebenslauf
-            </p>
-            <Link to="/">
-              <div className='w-20'>
-                <XMark className='stroke-tim-light-blue p-3'/>
-              </div>
-            </Link>
-          </div>
-        </div>
+        <DismissTopBar title='Lebenslauf'/>
       </PageTemplate>
   );
 }
