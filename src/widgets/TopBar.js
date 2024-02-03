@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Burger from "./icons/Burger";
-import XMark from "./icons/XMark";
+import Burger from "./Burger";
+import XMark from "./XMark";
 import Menu from "./Menu";
 
 function TopBar() {

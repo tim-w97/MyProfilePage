@@ -1,5 +1,5 @@
-import Octocat from "../widgets/icons/Octocat";
-import LinkedIn from "./icons/LinkedIn";
+import githubLogo from "../assets/images/logos/github.png";
+import linkedinLogo from "../assets/images/logos/linkedin.png";
 import mailIcon from '../assets/images/icons/email.png'
 import SendEmailLink from "./SendEmailLink";
 import {Link} from "react-router-dom";
@@ -17,7 +17,7 @@ function Contacts(props) {
             target="_blank"
             rel="noreferrer"
           >
-            <Octocat className="w-16 h-16 ml-3 my-3 mr-8 shrink-0" />
+            <img src={githubLogo} alt='Github Logo' className="w-16 h-16 object-contain ml-3 my-3 mr-8 shrink-0" />
             <p className="text-xl font-mono text-[#f0f6fc]">GitHub</p>
           </a>
         </li>
@@ -29,14 +29,14 @@ function Contacts(props) {
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedIn className="w-16 h-16 ml-3 my-3 mr-8 shrink-0" />
+            <img src={linkedinLogo} alt='Linkedin Logo' className="w-16 h-16 object-contain ml-3 my-3 mr-8 shrink-0" />
             <p className="text-xl font-mono text-[#0a66c2]">LinkedIn</p>
           </a>
         </li>
 
         <li>
           <SendEmailLink className="flex bg-tim-dark-blue items-center cursor-pointer">
-            <img src={mailIcon} alt='mail icon' className="w-16 h-16 ml-3 my-3 mr-8 shrink-0" />
+            <img src={mailIcon} alt='mail icon' className="w-16 h-16 object-contain ml-3 my-3 mr-8 shrink-0" />
             <p className="text-xl text-tim-light-blue">E-Mail schreiben</p>
           </SendEmailLink>
         </li>

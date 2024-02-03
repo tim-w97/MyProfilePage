@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import XMark from "./icons/XMark";
+import XMark from "./XMark";
 
 function DismissTopBar(props) {
     return (
