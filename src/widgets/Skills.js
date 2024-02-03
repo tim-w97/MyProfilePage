@@ -4,7 +4,7 @@ import SkillTile from "./SkillTile";
 import flutterIcon from '../assets/images/skills/flutter.png'
 import swiftIcon from '../assets/images/skills/swift.png'
 import reactIcon from '../assets/images/skills/react.png'
-import pythonIcon from '../assets/images/skills/python.png'
+import javaIcon from '../assets/images/skills/duchess.png'
 
 function Skills(props) {
     const [selectedSkill, setSelectedSkill] = useState(
@@ -35,7 +35,7 @@ function Skills(props) {
 
                 <SkillTile img={reactIcon} skill="React / React Native" onSelect={changeSelectedSkill}/>
 
-                <SkillTile img={pythonIcon} skill="Python" onSelect={changeSelectedSkill}/>
+                <SkillTile img={javaIcon} skill="Java" onSelect={changeSelectedSkill}/>
             </div>
             <p
                 className={`h-8 text-center text-tim-gray mt-1 ${
