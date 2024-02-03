@@ -18,13 +18,19 @@ function Imprint() {
                 <p className='font-bold my-5'>Kontakt:</p>
 
                 <div className='flex flex-col sm:flex-row mb-5 sm:m-0'>
+
                     <p className='sm:w-24'>Telefon:</p>
-                    <p>01520-4847344</p>
+
+                    <a href='tel:015204847344'>
+                        <p className='text-tim-light-blue'>01520-4847344</p>
+                    </a>
                 </div>
 
                 <div className='flex flex-col sm:flex-row'>
                     <p className='sm:w-24'>E-Mail:</p>
-                    <p>timwagner997@gmail.com</p>
+                    <a href='mailto:timwagner997@gmail.com'>
+                        <p className='text-tim-light-blue'>timwagner997@gmail.com</p>
+                    </a>
                 </div>
 
                 <p className='font-bold my-5'>Haftungsausschluss:</p>
