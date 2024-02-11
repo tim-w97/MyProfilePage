@@ -1,5 +1,4 @@
 import {useEffect, useRef} from "react";
-import {EffectCoverflow, EffectFade, EffectFlip} from "swiper/modules";
 
 function SkillTile(props) {
     const swiperRef = useRef(null);
@@ -7,12 +6,7 @@ function SkillTile(props) {
     useEffect(() => {
         const swiperContainer = swiperRef.current;
 
-        const params = {
-            modules: [EffectCoverflow],
-            effect: "coverflow",
-        };
-
-        Object.assign(swiperContainer, params);
+        Object.assign(swiperContainer);
         swiperContainer.initialize();
     });
 
