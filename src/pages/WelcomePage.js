@@ -13,7 +13,7 @@ function WelcomePage() {
         <PageTemplate>
             <div className='p-5'>
                 <Welcome className="relative mt-20"/>
-                <Skills className="relative mt-8"/>
+                <Skills className="relative mt-10"/>
             </div>
             <Apps className="relative mt-8"/>
             <Contacts className="relative mt-16 font-bold"/>

@@ -1,9 +1,6 @@
-import {register} from "swiper/element/bundle";
 import TimetableApp from "./TimetableApp";
 import Eisenpower from "./Eisenpower";
 import PacmansBox from "./PacmansBox";
-
-register()
 
 function Apps(props) {
     return (
