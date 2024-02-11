@@ -45,7 +45,7 @@ function Skills(props) {
         setTilesState(newState)
 
         if (flippedCount === skills.length) {
-            await sleep(1000)
+            await sleep(1500)
             resetTiles()
         }
     }
