@@ -1,5 +1,5 @@
 import {useEffect, useRef} from "react";
-import {EffectFlip} from "swiper/modules";
+import {EffectCoverflow, EffectFade, EffectFlip} from "swiper/modules";
 
 function SkillTile(props) {
     const swiperRef = useRef(null);
@@ -8,18 +8,21 @@ function SkillTile(props) {
         const swiperContainer = swiperRef.current;
 
         const params = {
-            modules: [EffectFlip],
-            effect: "flip",
-            cubeEffectShadow: true,
-            loop: true,
+            modules: [EffectCoverflow],
+            effect: "coverflow",
         };
 
         Object.assign(swiperContainer, params);
         swiperContainer.initialize();
     });
 
+    function flipTile() {
+        swiperRef.current.swiper.slideNext()
+        props.onTileFlip()
+    }
+
     return (
-        <div className='aspect-square'>
+        <div className='aspect-square m-3 cursor-pointer' onClick={flipTile}>
             <swiper-container ref={swiperRef} init={false}>
                 <swiper-slide>
                     <div className='bg-tim-gunpowder p-5'>
