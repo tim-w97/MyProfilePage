@@ -10,6 +10,7 @@ module.exports = {
       "tim-dark-blue": "#181A1C",
       "tim-light-blue": "#7BC7F3",
       "tim-light-grey": "#CFCFD3",
+      "tim-gunpowder": "#43535F",
 
       // old colors
       "tim-gray": "#656565",
