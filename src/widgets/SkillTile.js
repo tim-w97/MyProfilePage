@@ -5,15 +5,15 @@ function SkillTile(props) {
 
     return (
         <div className='aspect-square m-3 cursor-pointer' onClick={flipTile}>
-            {props.isFlipped ?
-                <div className='bg-tim-gray aspect-square flex items-center justify-center p-2'>
-                    <p className='text-center'>{props.skill}</p>
-                </div>
-                :
-                <div className='bg-tim-gunpowder p-5'>
+            <div className={`rounded-md ${props.isFlipped ? 'bg-tim-gray p-1' : 'bg-tim-gunpowder p-5'}`}>
+                {props.isFlipped ?
+                    <div className='aspect-square flex items-center justify-center text-center'>
+                        <p>{props.skill}</p>
+                    </div>
+                    :
                     <img className='aspect-square object-contain' src={props.img} alt={props.skill}/>
-                </div>
-            }
+                }
+            </div>
         </div>
     );
 }
