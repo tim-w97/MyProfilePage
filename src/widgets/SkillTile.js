@@ -1,18 +1,15 @@
-function SkillTile(props) {
-    function flipTile() {
-        props.onTileFlip(props.index)
-    }
+import {Tooltip} from "react-tooltip";
 
+function SkillTile(props) {
     return (
-        <div className='aspect-square m-3 cursor-pointer' onClick={flipTile}>
-            <div className={`rounded-md ${props.isFlipped ? 'bg-tim-gray p-1' : 'bg-tim-gunpowder p-5'}`}>
-                {props.isFlipped ?
-                    <div className='aspect-square flex items-center justify-center text-center'>
-                        <p>{props.skill}</p>
-                    </div>
-                    :
-                    <img className='aspect-square object-contain' src={props.img} alt={props.skill}/>
-                }
+        <div className='aspect-square m-3 cursor-pointer'>
+            <div
+                data-tooltip-id={`tooltip-${props.id}`}
+                data-tooltip-content={props.skill}
+                className='rounded-md bg-tim-gunpowder p-5'
+            >
+                <Tooltip id={`tooltip-${props.id}`} />
+                <img className='aspect-square object-contain' src={props.img} alt={props.skill}/>
             </div>
         </div>
     );
