@@ -11,6 +11,10 @@ function SkillTile(props) {
     }
 
     async function showTooltip() {
+        if (tooltipIsOpen) {
+            return
+        }
+        
         setTooltipIsOpen(true)
 
         if (isTouchscreen()) {
@@ -37,6 +41,7 @@ function SkillTile(props) {
             data-tooltip-content={props.skill}
             className='aspect-square m-3 rounded-md bg-tim-gunpowder p-5'
             onMouseEnter={showTooltip}
+            onClick={showTooltip}
             onMouseLeave={hideTooltip}
         >
             <Tooltip
