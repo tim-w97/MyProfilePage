@@ -15,11 +15,12 @@ function AppGallery(props) {
         const swiperContainer = swiperRef.current;
 
         const params = {
-            centeredSlides: true,
             initialSlide: props.initialSlide,
-            slidesPerView: isBigScreen ? 4 : 2,
+            slidesPerView: isBigScreen ? 3 : 2,
             grabCursor: true,
             spaceBetween: 20,
+            slidesOffsetBefore: 100,
+            slidesOffsetAfter: 100,
         };
 
         Object.assign(swiperContainer, params);

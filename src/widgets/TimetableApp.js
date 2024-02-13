@@ -5,13 +5,8 @@ import timetableAppSelectCourse from "../assets/images/apps/timetable-app/select
 import timetableAppSelectLectures from "../assets/images/apps/timetable-app/select lectures.png";
 import AppGallery from "./AppGallery";
 import appleStoreBadge from '../assets/images/badges/apple-store-badge.png'
-import {useState} from "react";
 
 function TimetableApp(props) {
-    const [isBigScreen, setIsBigScreen] = useState(
-        window.matchMedia("(min-width: 600px)").matches
-    )
-
     return(
         <div className={props.className}>
             <p className='m-5'>
@@ -20,7 +15,7 @@ function TimetableApp(props) {
                 Basis von Swift und SwiftUI entwickelt.
             </p>
 
-            <AppGallery initialSlide={isBigScreen ? 2 : 1} imagePaths={[
+            <AppGallery initialSlide={0} imagePaths={[
                 timetableAppOnboarding,
                 timetableAppLectures,
                 timetableAppSettings,
@@ -30,7 +25,7 @@ function TimetableApp(props) {
 
             <div className='flex justify-center mt-5'>
                 <a href='https://apps.apple.com/de/app/stundenplan-hof/id1202844664?l=de-DE' rel='noreferrer' target='_blank'>
-                    <img className='w-44' src={appleStoreBadge} alt='Apple app store badge'/>
+                    <img className='h-14' src={appleStoreBadge} alt='Apple app store badge'/>
                 </a>
             </div>
         </div>

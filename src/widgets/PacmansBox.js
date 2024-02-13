@@ -13,7 +13,7 @@ function PacmansBox(props) {
                 <span className='font-bold'>Pacman's Box</span> funktioniert auf iOS und Android.
             </p>
 
-            <AppGallery initialSlide={4} imagePaths={[
+            <AppGallery initialSlide={0} imagePaths={[
                 pacmansBoxMenu,
                 pacmansBoxHold,
                 pacmansBoxRelease,

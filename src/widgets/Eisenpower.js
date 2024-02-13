@@ -15,7 +15,7 @@ function Eisenpower(props) {
                 Es ist eine ziemlich einfache Todo-App, die jedoch alle Aufgaben nach der Eisenhower-Matrix priorisiert.
             </p>
 
-            <AppGallery initialSlide={0} imagePaths={[
+            <AppGallery initialSlide={4} imagePaths={[
                 eisenpowerTodos,
                 eisenpowerInput,
                 eisenpowerImportance,
@@ -26,11 +26,11 @@ function Eisenpower(props) {
             <div className='flex flex-col sm:flex-row justify-center items-center mt-5 gap-3'>
                 <a href='https://play.google.com/store/apps/details?id=tech.tim97.eisenpower.eisenpower&hl=de&gl=DE' rel='noreferrer'
                    target='_blank'>
-                    <img className='w-44' src={googlePlayBadge} alt='Google play store badge'/>
+                    <img className='h-14' src={googlePlayBadge} alt='Google play store badge'/>
                 </a>
                 <a href='https://www.amazon.com/gp/product/B0CRS84HSD' rel='noreferrer'
                    target='_blank'>
-                    <img className='w-44' src={amazonBadge} alt='Amazon app store badge'/>
+                    <img className='h-14' src={amazonBadge} alt='Amazon app store badge'/>
                 </a>
             </div>
         </div>
