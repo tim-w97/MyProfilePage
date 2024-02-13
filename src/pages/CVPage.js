@@ -127,7 +127,7 @@ function CVPage() {
                 <span className="font-bold">
                 Fachinformatiker für Anwendungsentwicklung
               </span>{" "}
-                mit zusätzlichen Schulungen im SAP-Bereich absolviert.
+                absolviert.
               </p>
             }
         />
