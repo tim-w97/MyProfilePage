@@ -7,7 +7,7 @@ function PageNotFound() {
             <DismissTopBar title='Fehler 404'/>
             <div className='p-5 pt-20'>
                 <p>
-                    Diese Seite gibt es vielleicht in einem anderen Paralleluniversum, aber nicht hier, tut mir Leid. 🥲
+                    Diese Seite gibt es vielleicht in einem anderen Paralleluniversum, aber nicht hier. Tut mir Leid. 🥲
                 </p>
             </div>
         </PageTemplate>
