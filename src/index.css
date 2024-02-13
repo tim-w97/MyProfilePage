@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+@font-face {
+  font-family: Comfortaa;
+  src: url('assets/fonts/Comfortaa.ttf');
+}
 
 @tailwind base;
 @tailwind components;
