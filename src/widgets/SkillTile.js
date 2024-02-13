@@ -6,7 +6,8 @@ function SkillTile(props) {
 
     const tooltipStyle = {
         backgroundColor: '#7BC7F3',
-        color: '#181A1C'
+        color: '#181A1C',
+        zIndex: 20,
     }
 
     async function showTooltip() {
