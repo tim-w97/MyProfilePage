@@ -25,8 +25,12 @@ function CVPage() {
             }
             description={
               <p>
-                Ich studiere hier{" "}
-                <span className="font-bold whitespace-nowrap">Mobile App Entwicklung (B.Sc.)</span> im
+                  Ich studiere hier{' '}
+                  <span className="font-bold">
+                    <span className='text-nowrap'>Mobile App Entwicklung</span>
+                      {' '}
+                      <span>(B.Sc.)</span>
+                </span> im
                 fünften Semester und spezialisiere mich auf die Entwicklung von
                 Apps für Android und iOS.
               </p>

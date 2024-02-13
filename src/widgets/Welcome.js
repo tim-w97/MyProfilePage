@@ -6,13 +6,17 @@ function Welcome(props) {
             <div id="anchor-aboutme" className="absolute -top-48"></div>
             <p className="text-2xl font-bold">
                 Hi, mein Name ist{" "}
-                <span className="font-bold whitespace-nowrap">Tim.</span>
+                <span className="font-bold">Tim.</span>
             </p>
 
             <p className="text-xl mt-6">
                 Ich studiere{' '}
-                <span className="font-bold whitespace-nowrap">Mobile App Entwicklung (B.Sc.)</span> an der{' '}
-                <span className='whitespace-nowrap'>Hochschule Hof</span>,{' '}
+                <span className="font-bold">
+                    <span className='text-nowrap'>Mobile App Entwicklung</span>
+                    {' '}
+                    <span>(B.Sc.)</span>
+                </span> an der{' '}
+                <span className='text-nowrap'>Hochschule Hof</span>,{' '}
                 ein besonderer Informatik-Studiengang für App Freaks wie mich.
             </p>
 
@@ -21,7 +25,7 @@ function Welcome(props) {
                 nach einem Praxispartner für ein spannendes App-Projekt.
             </p>
 
-            <img className='max-w-80 m-auto my-6' src={timWithCircles} alt='Tim with circles'/>
+            <img className='w-80 m-auto my-6' src={timWithCircles} alt='Tim with circles'/>
             <p>
                 Ich habe bereits eine Ausbildung zum Fachinformatiker erfolgreich abgeschlossen und durch das Studium mein
                 Wissen deutlich erweitert, besonders im Bezug auf App-Entwicklung.
