@@ -5,8 +5,13 @@ import timetableAppSelectCourse from "../assets/images/apps/timetable-app/select
 import timetableAppSelectLectures from "../assets/images/apps/timetable-app/select lectures.png";
 import AppGallery from "./AppGallery";
 import appleStoreBadge from '../assets/images/badges/apple-store-badge.png'
+import {useState} from "react";
 
 function TimetableApp(props) {
+    const [isBigScreen, setIsBigScreen] = useState(
+        window.matchMedia("(min-width: 600px)").matches
+    )
+
     return(
         <div className={props.className}>
             <p className='m-5'>
@@ -15,7 +20,7 @@ function TimetableApp(props) {
                 Basis von Swift und SwiftUI entwickelt.
             </p>
 
-            <AppGallery initialSlide={1} imagePaths={[
+            <AppGallery initialSlide={isBigScreen ? 2 : 1} imagePaths={[
                 timetableAppOnboarding,
                 timetableAppLectures,
                 timetableAppSettings,
