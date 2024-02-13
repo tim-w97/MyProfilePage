@@ -4,8 +4,13 @@ import pacmansBoxRelease from "../assets/images/apps/pacmans-box/release to shoo
 import pacmansBoxFlying from "../assets/images/apps/pacmans-box/flying.png";
 import pacmansBoxGameOver from "../assets/images/apps/pacmans-box/game over.png";
 import AppGallery from "./AppGallery";
+import {useState} from "react";
 
 function PacmansBox(props) {
+    const [isBigScreen, setIsBigScreen] = useState(
+        window.matchMedia("(min-width: 600px)").matches
+    )
+
     return(
         <div className={props.className}>
             <p className='m-5'>
@@ -13,7 +18,7 @@ function PacmansBox(props) {
                 <span className='font-bold'>Pacman's Box</span> funktioniert auf iOS und Android.
             </p>
 
-            <AppGallery initialSlide={4} imagePaths={[
+            <AppGallery initialSlide={isBigScreen ? 3 : 4} imagePaths={[
                 pacmansBoxMenu,
                 pacmansBoxHold,
                 pacmansBoxRelease,

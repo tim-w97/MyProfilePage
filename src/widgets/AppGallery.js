@@ -20,12 +20,8 @@ function AppGallery(props) {
             slidesPerView: isBigScreen ? 3 : 1.75,
             grabCursor: true,
             spaceBetween: 20,
-            slidesOffsetBefore: isBigScreen ? 130 : 0
+            slidesOffsetBefore: isBigScreen ? -130 : 0
         };
-
-        if (isBigScreen) {
-            params.initialSlide ++
-        }
 
         Object.assign(swiperContainer, params);
         swiperContainer.initialize();
