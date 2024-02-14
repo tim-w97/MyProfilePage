@@ -14,13 +14,15 @@ function AppGallery(props) {
 
         const swiperContainer = swiperRef.current;
 
+        const slidesOffset = isBigScreen ? 100 : 50
+
         const params = {
             initialSlide: props.initialSlide,
             slidesPerView: isBigScreen ? 3 : 2,
             grabCursor: true,
             spaceBetween: 20,
-            slidesOffsetBefore: 100,
-            slidesOffsetAfter: 100,
+            slidesOffsetBefore: slidesOffset,
+            slidesOffsetAfter: slidesOffset,
         };
 
         Object.assign(swiperContainer, params);
