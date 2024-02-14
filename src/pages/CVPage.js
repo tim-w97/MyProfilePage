@@ -27,7 +27,7 @@ function CVPage() {
               <p>
                   Ich studiere hier{' '}
                   <span className="font-bold">
-                    <span className='text-nowrap'>Mobile App Entwicklung</span>
+                    <span className='whitespace-nowrap'>Mobile App Entwicklung</span>
                       {' '}
                       <span>(B.Sc.)</span>
                 </span> im
