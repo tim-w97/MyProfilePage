@@ -23,6 +23,7 @@ function CVPage() {
             logo={
               <img src={universityLogo} alt='Hochschule Hof Logo'/>
             }
+            link='https://www.hof-university.de/'
             description={
               <p>
                   Ich studiere hier{' '}
@@ -46,6 +47,7 @@ function CVPage() {
             logo={
               <img src={codivoLogo} alt='Codivo Logo'/>
             }
+            link='https://www.codivo.de/'
             description={
               <p>
                 Bei der Codivo GmbH bin ich zurzeit als{" "}
@@ -64,6 +66,7 @@ function CVPage() {
             logo={
               <img src={universityLogo} alt='Hochschule Hof Logo'/>
             }
+            link='https://www.hof-university.de/'
             description={
               <p>
                 Ein Semester lang habe ich an meiner Hochschule als{" "}
@@ -82,6 +85,7 @@ function CVPage() {
             logo={
               <img src={dot9Logo} alt='dot9 Logo'/>
             }
+            link='https://dot9.co/'
             description={
               <p>
                 Ich war 10 Monate lang bei der dot9 GmbH als{" "}
@@ -101,6 +105,7 @@ function CVPage() {
             logo={
               <img src={ibykusLogo} alt='IBYKUS Logo'/>
             }
+            link='https://www.ibykus.de/'
             description={
               <p>
                 Nach meiner Ausbildung zum Fachinformatiker habe ich bei der
@@ -121,6 +126,7 @@ function CVPage() {
             logo={
               <img src={ibykusLogo} alt='IBYKUS Logo'/>
             }
+            link='https://www.ibykus.de/'
             description={
               <p className="">
                 Bei der IBYKUS AG habe ich meine Ausbildung zum{" "}
