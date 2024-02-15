@@ -44,7 +44,7 @@ function Contacts(props) {
         <div className="bg-tim-light-blue h-[1px] opacity-50"></div>
 
         <li>
-          <div className='flex flex-col md:flex-row items-center justify-between cursor-pointer min-h-16 gap-3 p-5'>
+          <div className='flex flex-col md:flex-row items-center justify-between min-h-16 gap-3 p-5'>
             <p className="font-normal">Mit viel ♥️ und React erstellt</p>
             <Link to='/impressum' className="text-tim-light-blue">Impressum</Link>
           </div>
