@@ -39,7 +39,7 @@ function SkillTile(props) {
         <div
             data-tooltip-id={`tooltip-${props.id}`}
             data-tooltip-content={props.skill}
-            className='aspect-square m-3 rounded-md bg-tim-gunpowder p-5'
+            className='aspect-square m-3 rounded-md bg-tim-gunpowder p-5 cursor-pointer'
             onMouseEnter={showTooltip}
             onClick={showTooltip}
             onMouseLeave={hideTooltip}
