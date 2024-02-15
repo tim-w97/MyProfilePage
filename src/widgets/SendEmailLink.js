@@ -2,7 +2,7 @@ function SendEmailLink(props) {
     return(
         <a
             className={props.className}
-            href="mailto:timwagner997@gmail.com?subject=Deine%20Bewerbung&body=Hi%20Tim%2C"
+            href="mailto:timwagner997@gmail.com"
             target="_blank"
             rel="noreferrer">
             {props.children}
