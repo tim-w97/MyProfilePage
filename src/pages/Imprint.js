@@ -1,6 +1,7 @@
 import PageTemplate from "../widgets/PageTemplate";
 import DismissTopBar from "../widgets/DismissTopBar";
 import {useEffect} from "react";
+import SendEmailLink from "../widgets/SendEmailLink";
 
 function Imprint() {
     useEffect(() => window.scrollTo(0, 0));
@@ -28,9 +29,9 @@ function Imprint() {
 
                 <div className='flex flex-col sm:flex-row'>
                     <p className='sm:w-24'>E-Mail:</p>
-                    <a href='mailto:timwagner997@gmail.com'>
+                    <SendEmailLink>
                         <p className='text-tim-light-blue'>timwagner997@gmail.com</p>
-                    </a>
+                    </SendEmailLink>
                 </div>
 
                 <p className='font-bold my-5'>Haftungsausschluss:</p>
