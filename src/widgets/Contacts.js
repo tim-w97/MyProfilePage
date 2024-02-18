@@ -25,7 +25,7 @@ function Contacts(props) {
         <li>
           <a
             className="flex bg-[#fff] items-center cursor-pointer"
-            href="https://www.linkedin.com/in/tim-wagner-ab3519220"
+            href="https://www.linkedin.com/in/tim97"
             target="_blank"
             rel="noreferrer"
           >
