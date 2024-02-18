@@ -30,7 +30,7 @@ function Imprint() {
                 <div className='flex flex-col sm:flex-row'>
                     <p className='sm:w-24'>E-Mail:</p>
                     <SendEmailLink>
-                        <p className='text-tim-light-blue'>timwagner997@gmail.com</p>
+                        <p className='text-tim-light-blue break-all'>timwagner997@gmail.com</p>
                     </SendEmailLink>
                 </div>
 
