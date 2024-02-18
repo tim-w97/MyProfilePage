@@ -110,7 +110,7 @@ function CVPage() {
                     Nach meiner Ausbildung zum Fachinformatiker habe ich bei der IBYKUS AG als{' '}
                     <span className="font-bold">Softwareentwickler</span> gearbeitet. Meine Aufgaben umfassten
                     die Entwicklung einer Webanwendung mit dem JavaServer Faces Framework sowie die grundlegende
-                    Anbindung eines PostgreSQL-Datenbankmanagementsystems.
+                    Anbindung eines PostgreSQL-Datenbank&shy;managementsystems.
                 </p>
             }
         />
