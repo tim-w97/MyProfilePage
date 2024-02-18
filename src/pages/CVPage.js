@@ -52,7 +52,7 @@ function CVPage() {
               <p>
                 Bei der Codivo GmbH bin ich zurzeit als{" "}
                 <span className="font-bold">Werkstudent</span> tätig.{" "}
-                Meine Hauptbeschäftigung ist die Entwicklung von hybriden Apps mit Flutter.
+                Meine Hauptbeschäftigung ist die Entwicklung von hybriden Apps mit Flutter und iOS-Apps mit Swift.
               </p>
             }
         />
@@ -70,8 +70,8 @@ function CVPage() {
             description={
               <p>
                 Ein Semester lang habe ich an meiner Hochschule als{" "}
-                <span className="font-bold">Tutor</span> gearbeitet und unseren
-                Erstsemestern aus Informatik das Programmieren in Java beigebracht.
+                <span className="font-bold">Tutor</span> gearbeitet. Zusammen mit einem weiteren Kommilitonen habe ich
+                  unseren Erstsemestern aus Informatik das Programmieren in Java beigebracht.
               </p>
             }
         />
@@ -90,8 +90,7 @@ function CVPage() {
               <p>
                 Ich war 10 Monate lang bei der dot9 GmbH als{" "}
                 <span className="font-bold">Werkstudent</span> tätig und habe
-                in dieser Zeit größtenteils Webanwendungen mit React
-                entwickelt.
+                in dieser Zeit größtenteils Webanwendungen mit React und Tailwind CSS entwickelt.
               </p>
             }
         />
@@ -107,18 +106,18 @@ function CVPage() {
             }
             link='https://www.ibykus.de/'
             description={
-              <p>
-                Nach meiner Ausbildung zum Fachinformatiker habe ich bei der
-                IBYKUS AG als{" "}
-                <span className="font-bold">Softwareentwickler</span> gearbeitet
-                und Webanwendungen mit dem JavaServer Faces Framework entwickelt.
-              </p>
+                <p>
+                    Nach meiner Ausbildung zum Fachinformatiker habe ich bei der IBYKUS AG als{' '}
+                    <span className="font-bold">Softwareentwickler</span> gearbeitet. Meine Aufgaben umfassten
+                    die Entwicklung einer Webanwendung mit dem JavaServer Faces Framework sowie die grundlegende
+                    Anbindung eines PostgreSQL-Datenbankmanagementsystems.
+                </p>
             }
         />
 
-        <Divider/>
+          <Divider/>
 
-        <CVEntry
+          <CVEntry
             className='pb-8'
             time="August 2018 bis Januar 2021"
             position="Ausbildung zum Fachinformatiker für Anwendungsentwicklung"
@@ -133,7 +132,7 @@ function CVPage() {
                 <span className="font-bold">
                 Fachinformatiker für Anwendungsentwicklung
               </span>{" "}
-                absolviert.
+                absolviert. Ich konnte die Ausbildung aufgrund sehr guter Leistungen um 6 Monate verkürzen.
               </p>
             }
         />
