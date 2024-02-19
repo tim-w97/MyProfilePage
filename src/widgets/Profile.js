@@ -1,9 +1,9 @@
-import tim from "../assets/images/tim.jpeg";
 import phoneIcon from '../assets/images/icons/phone.png'
 import mailIcon from '../assets/images/icons/email.png'
 import moment from "moment";
 import SendEmailLink from "./SendEmailLink";
 import CallMeLink from "./CallMeLink";
+import tim from '../assets/images/tim/tim.jpg'
 
 function Profile(props) {
   const birthday = moment('11091997', 'DDMMYYYY')

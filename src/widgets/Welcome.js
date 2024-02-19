@@ -1,4 +1,4 @@
-import timWithCircles from "../assets/images/tim with circles.png";
+import timSmiling from '../assets/images/tim/tim smiling.jpg'
 
 function Welcome(props) {
     return (
@@ -25,7 +25,12 @@ function Welcome(props) {
                 nach einem Praxispartner für ein spannendes App-Projekt.
             </p>
 
-            <img className='w-80 m-auto my-6' src={timWithCircles} alt='Tim with circles'/>
+            <img
+                className='aspect-square w-80 object-cover m-auto my-6 rounded-full'
+                src={timSmiling}
+                alt='Tim with circles'
+            />
+
             <p>
                 Ich habe bereits eine Ausbildung zum Fachinformatiker erfolgreich abgeschlossen und durch das Studium mein
                 Wissen deutlich erweitert, besonders im Bezug auf App-Entwicklung.
