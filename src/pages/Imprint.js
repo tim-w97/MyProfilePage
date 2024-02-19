@@ -2,6 +2,7 @@ import PageTemplate from "../widgets/PageTemplate";
 import DismissTopBar from "../widgets/DismissTopBar";
 import {useEffect} from "react";
 import SendEmailLink from "../widgets/SendEmailLink";
+import CallMeLink from "../widgets/CallMeLink";
 
 function Imprint() {
     useEffect(() => window.scrollTo(0, 0));
@@ -22,9 +23,9 @@ function Imprint() {
 
                     <p className='sm:w-24'>Telefon:</p>
 
-                    <a href='tel:015204847344'>
+                    <CallMeLink>
                         <p className='text-tim-light-blue'>01520-4847344</p>
-                    </a>
+                    </CallMeLink>
                 </div>
 
                 <div className='flex flex-col sm:flex-row'>

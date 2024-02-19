@@ -3,6 +3,7 @@ import phoneIcon from '../assets/images/icons/phone.png'
 import mailIcon from '../assets/images/icons/email.png'
 import moment from "moment";
 import SendEmailLink from "./SendEmailLink";
+import CallMeLink from "./CallMeLink";
 
 function Profile(props) {
   const birthday = moment('11091997', 'DDMMYYYY')
@@ -28,14 +29,9 @@ function Profile(props) {
       <p className="text-tim-gray">Wohnort: Hof (Bayern)</p>
       <div className="flex gap-3 mt-3">
         {/* Phone-Icon */}
-        <a
-          className="w-16"
-          href="tel:015204847344"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <CallMeLink className="w-16">
           <img src={phoneIcon} alt='Phone Contact'/>
-        </a>
+        </CallMeLink>
         {/* E-Mail-Icon */}
         <SendEmailLink className="w-16">
           <img src={mailIcon} alt='Email Contact'/>
