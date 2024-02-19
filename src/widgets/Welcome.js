@@ -1,5 +1,4 @@
-import timSmiling from '../assets/images/tim/tim smiling.jpg'
-import timSitting from '../assets/images/tim/tim_sitting.jpg'
+import timThinking from '../assets/images/tim/tim_thinking.jpg'
 
 function Welcome(props) {
     return (
@@ -27,8 +26,8 @@ function Welcome(props) {
             </p>
 
             <img
-                className='aspect-square w-64 object-cover m-auto my-6 rounded-full'
-                src={timSitting}
+                className='aspect-square w-80 object-cover m-auto my-6 rounded-full'
+                src={timThinking}
                 alt='Tim thinking about something'
             />
 
