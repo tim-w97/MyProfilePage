@@ -47,7 +47,7 @@ function Contacts(props) {
         <li>
           <div className='flex flex-col md:flex-row items-center justify-between gap-3 mx-5 mt-5'>
             <p className="font-normal text-center">Portraitfotos aufgenommen von Florian</p>
-            <a href='https://www.instagram.com/flo.luell/' target='_blank'>
+            <a href='https://www.instagram.com/flo.luell/' rel='noreferrer' target='_blank'>
               <div className='flex gap-3 items-center'>
                 <img className='aspect-square w-8' src={instagram} alt='Instagram Logo'/>
                 <p>@flo.luell</p>
