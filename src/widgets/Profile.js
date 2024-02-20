@@ -1,5 +1,3 @@
-import phoneIcon from '../assets/images/icons/phone.png'
-import mailIcon from '../assets/images/icons/email.png'
 import moment from "moment";
 import SendEmailLink from "./SendEmailLink";
 import CallMeLink from "./CallMeLink";
@@ -27,14 +25,16 @@ function Profile(props) {
         </span>
       </p>
       <p className="text-tim-gray">Wohnort: Hof (Bayern)</p>
-      <div className="flex gap-3 mt-3">
+      <div className="flex flex-col min-[320px]:flex-row mt-3 gap-3">
         {/* Phone-Icon */}
-        <CallMeLink className="w-16">
-          <img src={phoneIcon} alt='Phone Contact'/>
+        <CallMeLink className='w-32 bg-tim-gunpowder p-3 rounded-full'>
+          {/*<img src={phoneIcon} alt='Phone Contact'/>*/}
+          <p>Anrufen</p>
         </CallMeLink>
         {/* E-Mail-Icon */}
-        <SendEmailLink className="w-16">
-          <img src={mailIcon} alt='Email Contact'/>
+        <SendEmailLink className='w-32 bg-tim-gunpowder p-3 rounded-full'>
+          {/*<img src={mailIcon} alt='Email Contact'/>*/}
+          <p>E-Mail</p>
         </SendEmailLink>
       </div>
     </div>
