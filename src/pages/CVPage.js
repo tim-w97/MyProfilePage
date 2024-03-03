@@ -32,7 +32,7 @@ function CVPage() {
                       {' '}
                       <span>(B.Sc.)</span>
                 </span> im
-                fünften Semester und spezialisiere mich auf die Entwicklung von
+                6. Semester und spezialisiere mich auf die Entwicklung von
                 Apps für Android und iOS.
               </p>
             }
