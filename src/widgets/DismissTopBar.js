@@ -11,7 +11,7 @@ function DismissTopBar(props) {
                 </p>
                 <Link to="/">
                     <div className='w-20'>
-                        <XMark className='stroke-tim-light-blue p-3'/>
+                        <XMark className='w-20 h-20 stroke-tim-light-blue p-3'/>
                     </div>
                 </Link>
             </div>
