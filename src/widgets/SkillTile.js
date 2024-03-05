@@ -39,7 +39,7 @@ function SkillTile(props) {
         <div
             data-tooltip-id={`tooltip-${props.id}`}
             data-tooltip-content={props.skill}
-            className='aspect-square m-3 rounded-md bg-tim-gunpowder p-5 cursor-pointer'
+            className='m-3 rounded-md bg-tim-gunpowder p-5 cursor-pointer'
             onMouseEnter={showTooltip}
             onClick={showTooltip}
             onMouseLeave={hideTooltip}
@@ -51,7 +51,7 @@ function SkillTile(props) {
                 place='top'
                 isOpen={tooltipIsOpen}
             />
-            <img className='aspect-square object-contain' src={props.img} alt={props.skill}/>
+            <img className='w-32 aspect-square object-contain' src={props.img} alt={props.skill}/>
         </div>
     );
 }
