@@ -16,7 +16,7 @@ function CVPage() {
       <PageTemplate>
           <Profile className="pt-20 mx-3"/>
 
-          <p className="text-2xl font-bold mt-10 mb-5 text-center">Berufserfahrung</p>
+          <p className="text-2xl font-bold mt-14 mb-10 text-center">Berufserfahrung</p>
 
           <CVEntry
               time="Seit März 2023"
@@ -94,7 +94,7 @@ function CVPage() {
               }
           />
 
-          <p className="text-2xl font-bold mt-10 mb-5 text-center">Ausbildung und Studium</p>
+          <p className="text-2xl font-bold mt-14 mb-10 text-center">Ausbildung und Studium</p>
 
           <CVEntry
               time="Seit September 2021"
@@ -139,7 +139,7 @@ function CVPage() {
               }
           />
 
-          <p className="text-2xl font-bold mt-10 mb-5 text-center">Auszeichnungen und Engagement</p>
+          <p className="text-2xl font-bold mt-14 mb-10 text-center">Auszeichnungen und Engagement</p>
 
           <ul className='mx-10 list-disc'>
               <li>
@@ -154,9 +154,9 @@ function CVPage() {
               </li>
           </ul>
 
-          <p className="text-2xl font-bold mt-10 mb-5 text-center">Hobbys</p>
+          <p className="text-2xl font-bold mt-14 mb-10 text-center">Hobbys</p>
 
-          <ul className='mx-10 pb-5 list-disc pb-10'>
+          <ul className='mx-10 list-disc pb-10'>
               <li>
                   Wandern in der Natur
               </li>

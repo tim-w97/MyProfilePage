@@ -28,12 +28,10 @@ function Profile(props) {
       <div className="flex flex-col min-[320px]:flex-row mt-3 gap-3">
         {/* Phone-Icon */}
         <CallMeLink className='w-32 bg-tim-gunpowder p-3 rounded-full'>
-          {/*<img src={phoneIcon} alt='Phone Contact'/>*/}
           <p>Anrufen</p>
         </CallMeLink>
         {/* E-Mail-Icon */}
         <SendEmailLink className='w-32 bg-tim-gunpowder p-3 rounded-full'>
-          {/*<img src={mailIcon} alt='Email Contact'/>*/}
           <p>E-Mail</p>
         </SendEmailLink>
       </div>
