@@ -1,6 +1,7 @@
 import TimetableApp from "./TimetableApp";
 import Eisenpower from "./Eisenpower";
 import PacmansBox from "./PacmansBox";
+import IBecher from "./iBecher";
 
 function Apps(props) {
     return (
@@ -10,6 +11,7 @@ function Apps(props) {
             <TimetableApp className='mt-5'/>
             <Eisenpower className='mt-10'/>
             <PacmansBox className='mt-10'/>
+            <IBecher className='mt-10'/>
             <p className='mt-8 m-5'>Gerne zeige ich Ihnen persönlich noch weitere Apps und Projekte von mir.</p>
     </div>
     );
