@@ -62,7 +62,7 @@ function CVPage() {
               position="Werkstudent"
               location="dot9 GmbH"
               logo={
-                  <img src={dot9Logo} alt='dot9 Logo'/>
+                  <img className='rounded' src={dot9Logo} alt='dot9 Logo'/>
               }
               link='https://dot9.co/'
               description={
@@ -81,7 +81,7 @@ function CVPage() {
               position="Softwareentwickler"
               location="IBYKUS AG"
               logo={
-                  <img src={ibykusLogo} alt='IBYKUS Logo'/>
+                  <img className='rounded' src={ibykusLogo} alt='IBYKUS Logo'/>
               }
               link='https://www.ibykus.de/'
               description={
@@ -125,7 +125,7 @@ function CVPage() {
               position="Ausbildung zum Fachinformatiker für Anwendungsentwicklung"
               location="IBYKUS AG"
               logo={
-                  <img src={ibykusLogo} alt='IBYKUS Logo'/>
+                  <img className='rounded' src={ibykusLogo} alt='IBYKUS Logo'/>
               }
               link='https://www.ibykus.de/'
               description={
