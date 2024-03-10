@@ -5,9 +5,28 @@ import Skills from "../widgets/Skills";
 import TopBar from "../widgets/TopBar";
 import Welcome from "../widgets/Welcome";
 import PageTemplate from "../widgets/PageTemplate";
+import {useLocation} from "react-router-dom";
 
 function WelcomePage() {
-    useEffect(() => window.scrollTo(0, 0));
+    const location = useLocation()
+
+    useEffect(()=> {
+        if (!location.hash) {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth',
+            })
+
+            return
+        }
+
+        let anchor = document.getElementById(
+            location.hash.slice(1)
+        );
+
+        anchor.scrollIntoView({ behavior: 'smooth' });
+    }, [location]);
 
     return (
         <PageTemplate>

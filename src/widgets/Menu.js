@@ -1,60 +1,41 @@
 import { Link } from "react-router-dom";
 
 function Menu(props) {
-  function scrollToAnchor(id) {
-    props.onMenuClose();
-
-    let anchor = document.getElementById(id);
-    anchor.scrollIntoView({ behavior: "smooth" });
-  }
-
   return (
     <div className={props.className}>
       {/* if the user taps anywhere but not the buttons, the menu will close */}
       <div
         className="absolute w-screen h-screen"
         onClick={props.onMenuClose}
-      ></div>
+      />
 
       <ul className="font-normal list-none max-w-screen-md m-auto bg-tim-black text-tim-light-blue drop-shadow-md">
         <li className="text-right cursor-pointer">
-          <div
-            className="text-2xl p-5"
-            onClick={() => scrollToAnchor("anchor-aboutme")}
-          >
-            <p>Über mich</p>
-          </div>
+          <Link to="/" onClick={props.onMenuClose}>
+            <p className="text-2xl p-5">Über mich</p>
+          </Link>
         </li>
 
         <li className="text-right cursor-pointer">
-          <div
-            className="text-2xl p-5"
-            onClick={() => scrollToAnchor("anchor-tools")}
-          >
-            <p>Skills</p>
-          </div>
+          <Link to="/#skills" onClick={props.onMenuClose}>
+            <p className="text-2xl p-5">Skills</p>
+          </Link>
         </li>
 
         <li className="text-right cursor-pointer">
-          <div
-            className="text-2xl p-5"
-            onClick={() => scrollToAnchor("anchor-apps")}
-          >
-            <p>Apps</p>
-          </div>
+          <Link to="/#apps" onClick={props.onMenuClose}>
+            <p className="text-2xl p-5">Apps</p>
+          </Link>
         </li>
 
         <li className="text-right cursor-pointer">
-          <div
-            className="text-2xl p-5"
-            onClick={() => scrollToAnchor("anchor-contacts")}
-          >
-            <p>Kontakt</p>
-          </div>
+          <Link to="/#kontakt" onClick={props.onMenuClose}>
+            <p className="text-2xl p-5">Kontakt</p>
+          </Link>
         </li>
 
         <li className="text-right cursor-pointer">
-          <Link to="lebenslauf">
+          <Link to="/lebenslauf" onClick={props.onMenuClose}>
             <p className="text-2xl p-5">Lebenslauf</p>
           </Link>
         </li>

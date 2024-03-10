@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 function Contacts(props) {
   return (
     <div className={props.className}>
-      <div id="anchor-contacts" className="absolute bottom-0"></div>
+      <div id="kontakt" className="absolute bottom-0"></div>
       <p className="text-center text-2xl font-bold mx-5 mb-3">Kontakt</p>
       <ul className="list-none">
         <li>

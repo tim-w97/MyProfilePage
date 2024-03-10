@@ -3,7 +3,7 @@ import timThinking from '../assets/images/tim/tim_thinking.jpg'
 function Welcome(props) {
     return (
         <div className={props.className}>
-            <div id="anchor-aboutme" className="absolute -top-48"></div>
+            <div id="ich" className="absolute -top-48"></div>
             <p className="text-2xl font-bold">
                 Hi, mein Name ist{" "}
                 <span className="font-bold">Tim.</span>
