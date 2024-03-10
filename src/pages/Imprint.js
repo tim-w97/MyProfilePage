@@ -5,7 +5,10 @@ import CallMeLink from "../widgets/CallMeLink";
 import TopBar from "../widgets/TopBar";
 
 function Imprint() {
-    useEffect(() => window.scrollTo(0, 0));
+    useEffect(
+        () => window.scrollTo(0, 0),
+        []
+    );
 
     return (
         <PageTemplate>

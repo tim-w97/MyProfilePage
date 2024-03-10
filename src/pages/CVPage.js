@@ -10,7 +10,10 @@ import PageTemplate from "../widgets/PageTemplate";
 import TopBar from "../widgets/TopBar";
 
 function CVPage() {
-  useEffect(() => window.scrollTo(0, 0));
+  useEffect(
+      () => window.scrollTo(0, 0),
+      []
+  );
 
   return (
       <PageTemplate>
