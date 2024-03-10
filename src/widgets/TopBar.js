@@ -18,7 +18,7 @@ function TopBar(props) {
       <div className="fixed z-10 top-0 left-0 right-0">
           <div className="flex items-center max-w-screen-md m-auto bg-tim-dark-blue">
               <span className='hidden sm:block w-20'/>
-              <p className='text-3xl ml-5 sm:m-0 grow text-start sm:text-center font-bold text-tim-light-blue'>{props.title ?? ''}</p>
+              <p className='text-2xl ml-5 sm:m-0 grow text-start sm:text-center font-bold text-tim-light-blue'>{props.title ?? ''}</p>
               <button
                   onClick={toggleMenu}
                   className={`flex-none transition-transform duration-300 ${
