@@ -5,6 +5,7 @@ import tim from '../assets/images/tim/tim.jpg'
 import phoneIcon from '../assets/images/icons/phone.png'
 import mailIcon from '../assets/images/icons/mail.png'
 import homeIcon from '../assets/images/icons/home_pin.png'
+import GoogleMapsLink from "./GoogleMapsLink";
 
 function Profile(props) {
   const birthday = moment('11091997', 'DDMMYYYY')
@@ -35,10 +36,10 @@ function Profile(props) {
           </SendEmailLink>
 
 
-          <div className='flex min-[350px]:flex-row flex-col gap-3 items-center'>
+          <GoogleMapsLink className='flex min-[350px]:flex-row flex-col gap-3 items-center'>
             <img className='w-12 aspect-square object-contain' src={homeIcon} alt='home pin icon'/>
             <p className='text-tim-light-blue'>Königstr. 62, 95028 Hof</p>
-          </div>
+          </GoogleMapsLink>
 
 
           <CallMeLink className='flex min-[350px]:flex-row flex-col gap-3 items-center'>
