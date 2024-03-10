@@ -25,7 +25,9 @@ function WelcomePage() {
             location.hash.slice(1)
         );
 
-        anchor.scrollIntoView({ behavior: 'smooth' });
+        if (anchor) {
+            anchor.scrollIntoView({ behavior: 'smooth' });
+        }
     }, [location]);
 
     return (
