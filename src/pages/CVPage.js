@@ -42,7 +42,7 @@ function CVPage() {
               position="Tutor"
               location="Hochschule Hof"
               logo={
-                  <img src={universityLogo} alt='Hochschule Hof Logo'/>
+                  <img className='p-[0.1rem]' src={universityLogo} alt='Hochschule Hof Logo'/>
               }
               link='https://www.hof-university.de/'
               description={
@@ -101,7 +101,7 @@ function CVPage() {
               position="Student"
               location="Hochschule Hof"
               logo={
-                  <img src={universityLogo} alt='Hochschule Hof Logo'/>
+                  <img className='p-[0.1rem]' src={universityLogo} alt='Hochschule Hof Logo'/>
               }
               link='https://www.hof-university.de/'
               description={
