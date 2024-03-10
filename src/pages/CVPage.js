@@ -16,7 +16,7 @@ function CVPage() {
       <PageTemplate>
           <Profile className="pt-20 mx-3"/>
 
-          <p className="text-2xl font-bold mt-14 mb-10 text-center">Berufserfahrung</p>
+          <p className="text-2xl font-bold mt-14 mb-10 text-center mx-3">Berufserfahrung</p>
 
           <CVEntry
               time="Seit März 2023"
@@ -94,7 +94,7 @@ function CVPage() {
               }
           />
 
-          <p className="text-2xl font-bold mt-14 mb-10 text-center">Ausbildung und Studium</p>
+          <p className="text-2xl font-bold mt-14 mb-10 text-center mx-3">Ausbildung und Studium</p>
 
           <CVEntry
               time="Seit September 2021"
@@ -139,17 +139,17 @@ function CVPage() {
               }
           />
 
-          <p className="text-2xl font-bold mt-14 mb-10 text-center">Auszeichnungen und Engagement</p>
+          <p className="text-2xl font-bold mt-14 mb-10 text-center mx-3">Auszeichnungen und Engagement</p>
 
           <ul className='mx-10 list-disc'>
               <li>
                   Ich gehöre in meinem Studiengang zu den 10 % besten aus meinem Jahrgang und wurde deswegen
                   in die Dekansliste 2023 aufgenommen
               </li>
-              <li>
+              <li className='mt-3'>
                   Seit Wintersemester 2022 bin ich als Studienmentor für meinen Studiengang aktiv
               </li>
-              <li>
+              <li className='mt-3'>
                   Ich habe 2021 ein Deutschland&shy;stipendium bekommen
               </li>
           </ul>
@@ -160,7 +160,7 @@ function CVPage() {
               <li>
                   Wandern in der Natur
               </li>
-              <li>
+              <li className='mt-3'>
                   Neue Kochrezepte ausprobieren
               </li>
           </ul>
