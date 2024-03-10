@@ -7,7 +7,7 @@ import ibykusLogo from '../assets/images/logos/ibykus.png'
 import codivoLogo from '../assets/images/logos/codivo.png'
 import dot9Logo from '../assets/images/logos/dot9.png'
 import PageTemplate from "../widgets/PageTemplate";
-import DismissTopBar from "../widgets/DismissTopBar";
+import TopBar from "../widgets/TopBar";
 
 function CVPage() {
   useEffect(() => window.scrollTo(0, 0));
@@ -165,7 +165,7 @@ function CVPage() {
               </li>
           </ul>
 
-          <DismissTopBar title='Lebenslauf'/>
+          <TopBar title='Lebenslauf'/>
       </PageTemplate>
   );
 }

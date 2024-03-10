@@ -1,15 +1,14 @@
 import PageTemplate from "../widgets/PageTemplate";
-import DismissTopBar from "../widgets/DismissTopBar";
 import {useEffect} from "react";
 import SendEmailLink from "../widgets/SendEmailLink";
 import CallMeLink from "../widgets/CallMeLink";
+import TopBar from "../widgets/TopBar";
 
 function Imprint() {
     useEffect(() => window.scrollTo(0, 0));
 
     return (
         <PageTemplate>
-            <DismissTopBar title='Impressum'/>
             <div className='p-5 pt-20'>
                 <p>Angaben gemäß § 5 TMG</p>
 
@@ -62,6 +61,7 @@ function Imprint() {
                     werde ich derartige Links umgehend entfernen.
                 </p>
             </div>
+            <TopBar title='Impressum'/>
         </PageTemplate>
     )
 }
