@@ -23,7 +23,7 @@ function Profile(props) {
             <p className="text-tim-gray">geboren am 11.09.1997</p>
           </div>
           {/*Links*/}
-          <div className="flex flex-col gap-5 items-start">
+          <div className="flex flex-col gap-5 items-center min-[350px]:items-start">
             <SendEmailLink className='flex min-[350px]:flex-row flex-col gap-3 items-center'>
               <img className='w-12 aspect-square object-contain' src={mailIcon} alt='mail icon'/>
               <p className='text-tim-light-blue'>timwagner997@gmail.com</p>
