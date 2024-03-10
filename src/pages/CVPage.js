@@ -122,7 +122,7 @@ function CVPage() {
 
           <CVEntry
               time="August 2018 bis Januar 2021"
-              position="Ausbildung zum Fachinformatiker für Anwendungsentwicklung"
+              position="Ausbildung zum Fachinformatiker für Anwendungs&shy;entwicklung"
               location="IBYKUS AG"
               logo={
                   <img className='rounded' src={ibykusLogo} alt='IBYKUS Logo'/>
@@ -132,7 +132,7 @@ function CVPage() {
                   <p className="">
                       Bei der IBYKUS AG habe ich meine Ausbildung zum{" "}
                       <span className="font-bold">
-                Fachinformatiker für Anwendungsentwicklung
+                Fachinformatiker für Anwendungs&shy;entwicklung
               </span>{" "}
                       absolviert. Ich konnte die Ausbildung aufgrund sehr guter Leistungen um 6 Monate verkürzen.
                   </p>
@@ -150,7 +150,7 @@ function CVPage() {
                   Seit Wintersemester 2022 bin ich als Studienmentor für meinen Studiengang aktiv
               </li>
               <li>
-                  Ich habe 2021 ein Deutschlandstipendium bekommen
+                  Ich habe 2021 ein Deutschland&shy;stipendium bekommen
               </li>
           </ul>
 
