@@ -20,11 +20,6 @@ function Welcome(props) {
                 ein besonderer Informatik-Studiengang für App Freaks wie mich.
             </p>
 
-            <p className="mt-3">
-                Im Oktober 2024 beginnt mein 7. Semester und ich suche{' '}
-                nach einem Praxispartner für ein spannendes App-Projekt.
-            </p>
-
             <img
                 className='aspect-square w-80 object-cover m-auto my-6 rounded-full'
                 src={timThinking}
@@ -33,7 +28,7 @@ function Welcome(props) {
 
             <p>
                 Ich habe bereits eine Ausbildung zum Fachinformatiker erfolgreich abgeschlossen und durch das Studium mein
-                Wissen deutlich erweitert, besonders im Bezug auf App-Entwicklung.
+                Wissen deutlich erweitert, besonders im Bereich App-Entwicklung.
             </p>
 
             <p className="mt-3">
