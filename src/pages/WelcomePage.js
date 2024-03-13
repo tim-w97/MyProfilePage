@@ -11,6 +11,10 @@ function WelcomePage() {
     const location = useLocation()
 
     useEffect(()=> {
+        timeout(200).then(jumpToAnchor)
+    });
+
+    function jumpToAnchor() {
         if (!location.hash) {
             window.scrollTo({
                 top: 0,
@@ -28,7 +32,11 @@ function WelcomePage() {
         if (anchor) {
             anchor.scrollIntoView({ behavior: 'smooth' });
         }
-    }, [location]);
+    }
+
+    function timeout(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
 
     return (
         <PageTemplate>
