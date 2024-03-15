@@ -17,7 +17,7 @@ function CVPage() {
 
   return (
       <PageTemplate>
-          <Profile className="pt-20 mx-3"/>
+          <Profile className="pt-20 mx-5"/>
 
           <p className="text-2xl font-bold mt-14 mb-10 text-center mx-3">Praktische Erfahrung</p>
 
