@@ -19,7 +19,7 @@ function CVPage() {
       <PageTemplate>
           <Profile className="pt-20 mx-3"/>
 
-          <p className="text-2xl font-bold mt-14 mb-10 text-center mx-3">Berufserfahrung</p>
+          <p className="text-2xl font-bold mt-14 mb-10 text-center mx-3">Praktische Erfahrung</p>
 
           <CVEntry
               time="Seit März 2023"

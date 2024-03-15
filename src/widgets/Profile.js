@@ -1,6 +1,6 @@
 import SendEmailLink from "./SendEmailLink";
 import CallMeLink from "./CallMeLink";
-import tim from '../assets/images/tim/tim.jpg'
+import tim from '../assets/images/tim/tim rund.png'
 import phoneIcon from '../assets/images/icons/phone.png'
 import mailIcon from '../assets/images/icons/mail.png'
 import homeIcon from '../assets/images/icons/home_pin.png'
@@ -15,12 +15,12 @@ function Profile(props) {
           <div className='flex flex-col items-center'>
             {/*Portrait, name and age*/}
             <img
-                className="aspect-square w-40 object-cover rounded-full"
+                className="aspect-square w-40 object-cover"
                 src={tim}
                 alt="Portrait von Tim"
             />
             <p className="text-2xl font-bold mt-5">Tim Wagner</p>
-            <p className="text-tim-gray">geboren am 11.09.1997</p>
+            <p className="text-tim-gray">Geboren am 11.09.1997 in Erfurt</p>
           </div>
           {/*Links*/}
           <div className="flex flex-col gap-5 items-center min-[350px]:items-start">
