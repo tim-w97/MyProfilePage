@@ -16,8 +16,8 @@ function Welcome(props) {
                     {' '}
                     <span>(B.Sc.)</span>
                 </span> an der{' '}
-                <span className='whitespace-nowrap'>Hochschule Hof</span>,{' '}
-                ein besonderer Informatik-Studiengang für App Freaks wie mich.
+                Hochschule für Angewandte Wissenschaften Hof. Dieser spezielle Informatik-Studiengang richtet sich
+                an App Freaks wie mich, die eine große Leidenschaft für App-Entwicklung haben.
             </p>
 
             <img
