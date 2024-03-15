@@ -19,84 +19,6 @@ function CVPage() {
       <PageTemplate>
           <Profile className="pt-20 mx-5"/>
 
-          <p className="text-2xl font-bold mt-14 mb-10 text-center mx-3">Praktische Erfahrung</p>
-
-          <CVEntry
-              time="Seit März 2023"
-              position="Werkstudent"
-              location="Codivo GmbH"
-              logo={
-                  <img src={codivoLogo} alt='Codivo Logo'/>
-              }
-              link='https://www.codivo.de/'
-              description={
-                  <p>
-                      Bei der Codivo GmbH bin ich zurzeit als{" "}
-                      <span className="font-bold">Werkstudent</span> tätig.{" "}
-                      Meine Hauptbeschäftigung ist die Entwicklung von hybriden Apps mit Flutter und iOS-Apps mit Swift.
-                  </p>
-              }
-          />
-
-          <Divider/>
-
-          <CVEntry
-              time="November 2022 bis März 2023"
-              position="Tutor"
-              location="Hochschule Hof"
-              logo={
-                  <img className='p-[0.1rem]' src={universityLogo} alt='Hochschule Hof Logo'/>
-              }
-              link='https://www.hof-university.de/'
-              description={
-                  <p>
-                      Ein Semester lang habe ich an meiner Hochschule als{" "}
-                      <span className="font-bold">Tutor</span> gearbeitet. Zusammen mit einem weiteren Kommilitonen habe
-                      ich
-                      unseren Erstsemestern aus Informatik das Programmieren in Java beigebracht.
-                  </p>
-              }
-          />
-
-          <Divider/>
-
-          <CVEntry
-              time="September 2021 bis Juni 2022"
-              position="Werkstudent"
-              location="dot9 GmbH"
-              logo={
-                  <img className='rounded' src={dot9Logo} alt='dot9 Logo'/>
-              }
-              link='https://dot9.co/'
-              description={
-                  <p>
-                      Ich war 10 Monate lang bei der dot9 GmbH als{" "}
-                      <span className="font-bold">Werkstudent</span> tätig und habe
-                      in dieser Zeit größtenteils Webanwendungen mit React und Tailwind CSS entwickelt.
-                  </p>
-              }
-          />
-
-          <Divider/>
-
-          <CVEntry
-              time="Januar 2021 bis Juli 2021"
-              position="Softwareentwickler"
-              location="IBYKUS AG"
-              logo={
-                  <img className='rounded' src={ibykusLogo} alt='IBYKUS Logo'/>
-              }
-              link='https://www.ibykus.de/'
-              description={
-                  <p>
-                      Nach meiner Ausbildung zum Fachinformatiker habe ich bei der IBYKUS AG als{' '}
-                      <span className="font-bold">Softwareentwickler</span> gearbeitet. Meine Aufgaben umfassten
-                      die Entwicklung einer Webanwendung mit dem JavaServer Faces Framework sowie die grundlegende
-                      Anbindung eines PostgreSQL-Datenbank&shy;managementsystems.
-                  </p>
-              }
-          />
-
           <p className="text-2xl font-bold mt-14 mb-10 text-center mx-3">Ausbildung und Studium</p>
 
           <CVEntry
@@ -109,14 +31,14 @@ function CVPage() {
               link='https://www.hof-university.de/'
               description={
                   <p>
-                      Ich studiere hier{' '}
+                      Ich studiere aktuell{' '}
                       <span className="font-bold">
                     <span className='whitespace-nowrap'>Mobile App Entwicklung</span>
                           {' '}
                           <span>(B.Sc.)</span>
                 </span> im
-                      6. Semester und spezialisiere mich auf die Entwicklung von
-                      Apps für Android und iOS.
+                      6. Semester. Die Schwerpunkte in meinem Studium sind Informatik,
+                      App-Entwicklung für iOS und Android sowie UX-Design.
                   </p>
               }
           />
@@ -137,7 +59,83 @@ function CVPage() {
                       <span className="font-bold">
                 Fachinformatiker für Anwendungs&shy;entwicklung
               </span>{" "}
-                      absolviert. Ich konnte die Ausbildung aufgrund sehr guter Leistungen um 6 Monate verkürzen.
+                      absolviert. Ich habe während meiner Ausbildung Software mit Java entwickelt und Formulare
+                      mit HTML, JavaScript und jQuery erstellt.
+                  </p>
+              }
+          />
+
+          <p className="text-2xl font-bold mt-14 mb-10 text-center mx-3">Praktische Erfahrung</p>
+
+          <CVEntry
+              time="Seit März 2023"
+              position="Werkstudent"
+              location="Codivo GmbH"
+              logo={
+                  <img src={codivoLogo} alt='Codivo Logo'/>
+              }
+              link='https://www.codivo.de/'
+              description={
+                  <p>
+                      Bei der Codivo GmbH bin ich zurzeit als Werkstudent beschäftigt.
+                      Meine Tätigkeiten umfassen die Entwicklung plattformübergreifender Apps mit Flutter sowie die
+                      Entwicklung von iOS-Apps mit Swift.
+                  </p>
+              }
+          />
+
+          <Divider/>
+
+          <CVEntry
+              time="November 2022 bis März 2023"
+              position="Tutor"
+              location="Hochschule Hof"
+              logo={
+                  <img className='p-[0.1rem]' src={universityLogo} alt='Hochschule Hof Logo'/>
+              }
+              link='https://www.hof-university.de/'
+              description={
+                  <p>
+                      Ich habe unsere Erstsemester bei ihren Programmieraufgaben in Java betreut und
+                      Musteraufgaben sowie -lösungen erstellt. Zusätzlich habe ich komplexe Konzepte wie
+                      OOP und Vererbung durch anschauliche Beispiele erklärt.
+                  </p>
+              }
+          />
+
+          <Divider/>
+
+          <CVEntry
+              time="September 2021 bis Juni 2022"
+              position="Werkstudent"
+              location="dot9 GmbH"
+              logo={
+                  <img className='rounded' src={dot9Logo} alt='dot9 Logo'/>
+              }
+              link='https://dot9.co/'
+              description={
+                  <p>
+                      Bei der dot9 GmbH habe ich eine iPad-App mit Swift und UIKit entwickelt sowie Webanwendungen
+                      mit React und TailwindCSS entwickelt.
+                  </p>
+              }
+          />
+
+          <Divider/>
+
+          <CVEntry
+              time="Januar 2021 bis Juli 2021"
+              position="Softwareentwickler"
+              location="IBYKUS AG"
+              logo={
+                  <img className='rounded' src={ibykusLogo} alt='IBYKUS Logo'/>
+              }
+              link='https://www.ibykus.de/'
+              description={
+                  <p>
+                      Zwischen Ausbildung und Studium habe ich bei der IBYKUS AG als Softwareentwickler gearbeitet.
+                      Ich habe Software mit Java entwickelt, SQL-Skripte geschrieben und ein
+                      Datenmigrationstool mit dem Spring Framework entwickelt.
                   </p>
               }
           />
