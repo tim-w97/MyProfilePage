@@ -1,3 +1,3 @@
 # Meine persönliche Homepage
 
-<img width="396" alt="screenshot" src="https://github.com/tim-w97/MyProfilePage/assets/63613014/a2db4ba1-a61c-46e9-9b7c-49d9d92ff6c9">
+![screenshot](https://github.com/tim-w97/TimsHomepage/assets/63613014/adc2be96-947f-4159-808b-4a7532cf32aa)
