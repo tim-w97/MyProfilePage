@@ -24,7 +24,7 @@ function CVPage() {
           <CVEntry
               time="Seit September 2021"
               position="Student"
-              location="Hochschule Hof"
+              location={<p className='font-bold'>Hochschule Hof</p>}
               logo={
                   <img className='p-[0.1rem]' src={universityLogo} alt='Hochschule Hof Logo'/>
               }
@@ -48,7 +48,7 @@ function CVPage() {
           <CVEntry
               time="August 2018 bis Januar 2021"
               position="Ausbildung zum Fachinformatiker für Anwendungs&shy;entwicklung"
-              location="IBYKUS AG"
+              location={<p><span className='font-bold'>IBYKUS AG</span>, Erfurt</p>}
               logo={
                   <img className='rounded' src={ibykusLogo} alt='IBYKUS Logo'/>
               }
@@ -70,7 +70,7 @@ function CVPage() {
           <CVEntry
               time="Seit März 2023"
               position="Werkstudent"
-              location="Codivo GmbH"
+              location={<p><span className='font-bold'>Codivo GmbH</span>, München</p>}
               logo={
                   <img src={codivoLogo} alt='Codivo Logo'/>
               }
@@ -89,7 +89,7 @@ function CVPage() {
           <CVEntry
               time="November 2022 bis März 2023"
               position="Tutor"
-              location="Hochschule Hof"
+              location={<p className='font-bold'>Hochschule Hof</p>}
               logo={
                   <img className='p-[0.1rem]' src={universityLogo} alt='Hochschule Hof Logo'/>
               }
@@ -108,7 +108,7 @@ function CVPage() {
           <CVEntry
               time="September 2021 bis Juni 2022"
               position="Werkstudent"
-              location="dot9 GmbH"
+              location={<p><span className='font-bold'>dot9 GmbH</span>, Düsseldorf</p>}
               logo={
                   <img className='rounded' src={dot9Logo} alt='dot9 Logo'/>
               }
@@ -126,7 +126,7 @@ function CVPage() {
           <CVEntry
               time="Januar 2021 bis Juli 2021"
               position="Softwareentwickler"
-              location="IBYKUS AG"
+              location={<p><span className='font-bold'>IBYKUS AG</span>, Erfurt</p>}
               logo={
                   <img className='rounded' src={ibykusLogo} alt='IBYKUS Logo'/>
               }
